@@ -1,0 +1,4 @@
+gradio==4.17.0
+langchain==0.1.6
+python-decouple==3.4
+pandas
