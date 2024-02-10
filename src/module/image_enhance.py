@@ -2,6 +2,8 @@ import cv2
 import os
 from config import file_Directory
 import numpy as np
+from PIL import Image
+
 class Image_Enhance():
 
     def __init__(self, image_path) -> None:
@@ -11,9 +13,9 @@ class Image_Enhance():
         # Load the image 
         image = cv2.imread(self.image_path) 
         #Plot the original image 
-        alpha = 1.5  
+        alpha = -1.1
         # control brightness by 50 
-        beta = -150
+        beta = 70
         image2 = cv2.convertScaleAbs(image, alpha=alpha, beta=beta) 
         #Save the image 
         # imagepth = os.path.join(os.path.dirname(self.image_path), 'Brightness & contrast.jpg')
@@ -21,6 +23,32 @@ class Image_Enhance():
         cv2.imwrite(imagepth, image2) 
         return imagepth
     
+    def remove_flash(self, imagepth):
+        image = cv2.imread(imagepth)
+        # cv2.cvtColor is applied over the 
+        gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+        # Apply adaptive thresholding to segment the text
+        thresh = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY_INV, 11, 4)
+
+        # Apply Gaussian blur to the grayscale image to reduce noise
+        blurred = cv2.GaussianBlur(gray, (5, 5), 0)
+
+        # Threshold the blurred image to create a binary mask for the flashlight glare
+        _, mask = cv2.threshold(blurred, 240, 255, cv2.THRESH_BINARY_INV)
+
+        # Combine the text and glare masks
+        mask = cv2.bitwise_or(mask, thresh)
+
+        # Apply morphological closing to further remove small areas of glare
+        kernel = np.ones((5,5),np.uint8)
+        mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernel)
+
+        # Apply the mask to the original image to remove flashlight glare
+        result = cv2.bitwise_and(image, image, mask=mask)
+
+        cv2.imwrite(os.path.join(file_Directory, 'remove_flash.jpg'), result)
+            
     def sharpen(self, imagepth):
         image = cv2.imread(imagepth) 
         # Create the sharpening kernel 
@@ -74,9 +102,10 @@ class Image_Enhance():
         cv2.imwrite(imagepath, image2) 
        
 
-obj = Image_Enhance(r"/home/vrush/Catalog-Digitization-/src/module/data/Catalog Digitization/ONDC Test Data _ Images/Product Images/Bru_Instant_Coffee_Powder.png")
+obj = Image_Enhance(r"data/Catalog Digitization/ONDC Test Data _ Images/Product Images/Bru_Instant_Coffee_Powder.png")
 pth = obj.brightness_Adjust()
 sharpen = obj.sharpen(pth)
 lapacian_sharpen = obj.lapacian_sharpen(sharpen)
-noise = obj.removing_noise(pth)
+noise = obj.removing_noise(sharpen)
 obj.enhance_color(noise)
+obj.remove_flash(sharpen)
