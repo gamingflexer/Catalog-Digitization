@@ -1,90 +1,46 @@
-<!-- edit_voice_product.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Voice Product</title>
-    <!-- Include necessary CSS or stylesheets -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ product.product_name }}</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom styles */
+    .product-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .carousel-item img {
+      border: 2px solid #ccc;
+      border-radius: 5px;
+    }
+    .product-details p {
+      margin-bottom: 5px;
+    }
+    .edit-btn {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+          <a class="navbar-brand" href="{% url 'index' %}">Catalogue</a>
+      </div>
+  </nav>
+</header>
+<body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Title Here</title>
+  <!-- Include Gradio JS library -->
+  <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/4.12.0/gradio.js"></script>
 </head>
 <body>
-    <h1>Edit Voice Product</h1>
-    
-    <div id="recording-status"></div>
-    <button id="record-button">Start Recording</button>
-    
-    <form id="voice-form" method="post" enctype="multipart/form-data">
-        {% csrf_token %}
-        <input type="file" id="voice-file" name="voice_file" style="display: none;">
-        <button type="submit" id="submit-button" style="display: none;">Submit</button>
-    </form>
-
-    <!-- Include necessary JavaScript -->
-    <script>
-        const recordButton = document.getElementById('record-button');
-        const recordingStatus = document.getElementById('recording-status');
-        const voiceForm = document.getElementById('voice-form');
-        const voiceFileInput = document.getElementById('voice-file');
-        const submitButton = document.getElementById('submit-button');
-        let mediaRecorder;
-        let chunks = [];
-
-        recordButton.addEventListener('click', async () => {
-            if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-                try {
-                    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-                    startRecording(stream);
-                } catch (error) {
-                    console.error('Error accessing microphone:', error);
-                }
-            } else {
-                console.error('getUserMedia not supported on your browser');
-            }
-        });
-
-        function startRecording(stream) {
-            mediaRecorder = new MediaRecorder(stream);
-            mediaRecorder.ondataavailable = handleDataAvailable;
-            mediaRecorder.start();
-            recordingStatus.innerText = 'Recording...';
-            recordingStatus.style.color = 'red';
-            recordButton.disabled = true;
-        }
-
-        function handleDataAvailable(event) {
-            chunks.push(event.data);
-        }
-
-        mediaRecorder.onstop = async () => {
-            const blob = new Blob(chunks, { 'type' : 'audio/ogg; codecs=opus' });
-            chunks = [];
-            const formData = new FormData();
-            formData.append('voice_file', blob);
-            try {
-                const response = await fetch('/edit-voice-product/', {
-                    method: 'POST',
-                    body: formData,
-                });
-                if (response.ok) {
-                    console.log('Voice file submitted successfully');
-                    // Optionally, you can redirect or show a success message
-                } else {
-                    console.error('Failed to submit voice file');
-                }
-            } catch (error) {
-                console.error('Error submitting voice file:', error);
-            }
-        };
-
-        mediaRecorder.onpause = () => {
-            recordingStatus.innerText = 'Recording paused';
-            recordingStatus.style.color = 'grey';
-        };
-
-        voiceForm.addEventListener('submit', () => {
-            mediaRecorder.stop();
-        });
-    </script>
+  <gradio-app src="http://34.122.223.224:9003/"></gradio-app>
 </body>
 </html>
