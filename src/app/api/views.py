@@ -136,28 +136,3 @@ def edit_voice_product(request,product_id):
             return JsonResponse({'error': 'No voice file submitted.'}, status=400)
     else:
         return render(request, 'edit_voice_product.html')
-      
-def record(request):
-    if request.method == "POST":
-        audio_file = request.FILES.get("recorded_audio")
-        language = request.POST.get("language")
-        record = Record.objects.create(language=language, voice_record=audio_file)
-        record.save()
-        messages.success(request, "Audio recording successfully added!")
-        return JsonResponse(
-            {
-                "url": record.get_absolute_url(),
-                "success": True,
-            }
-        )
-    context = {"page_title": "Record audio"}
-    return render(request, "record.html", context)
-
-
-def record_detail(request, id):
-    record = get_object_or_404(Record, id=id)
-    context = {
-        "page_title": "Recorded audio detail",
-        "record": record,
-    }
-    return render(request, "record_detail.html", context)
