@@ -1,4 +1,4 @@
-from config import OPENAI_API_KEY
+from module.config import OPENAI_API_KEY
 import gradio as gr
 import pandas as pd
 
