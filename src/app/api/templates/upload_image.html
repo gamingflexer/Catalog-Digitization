@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Upload Image</h1>
+        <form id="upload-form" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="images">Choose Images:</label>
+                <input type="file" class="form-control-file" id="images" name="images" multiple>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <!-- Display product details for editing -->
+        <div id="edit-product" style="display: none;">
+            <h2 class="mt-4">Edit Product</h2>
+            <form id="edit-product-form">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="barcode">Barcode:</label>
+                    <input type="text" class="form-control" id="barcode" name="barcode">
+                </div>
+                <div class="form-group">
+                    <label for="brand">Brand:</label>
+                    <input type="text" class="form-control" id="brand" name="brand">
+                </div>
+                <div class="form-group">
+                    <label for="sub_brand">Sub Brand:</label>
+                    <input type="text" class="form-control" id="sub_brand" name="sub_brand">
+                </div>
+                <div class="form-group">
+                    <label for="manufacturer">Manufacturer:</label>
+                    <input type="text" class="form-control" id="manufacturer" name="manufactured_by">
+                </div>
+                <div class="form-group">
+                    <label for="product_name">Product Name:</label>
+                    <input type="text" class="form-control" id="product_name" name="product_name">
+                </div>
+                <div class="form-group">
+                    <label for="weight">Weight:</label>
+                    <input type="text" class="form-control" id="weight" name="weight">
+                </div>
+                <div class="form-group">
+                    <label for="variant">Variant:</label>
+                    <input type="text" class="form-control" id="variant" name="variant">
+                </div>
+                <div class="form-group">
+                    <label for="net_content">Net Content:</label>
+                    <input type="text" class="form-control" id="net_content" name="net_content">
+                </div>
+                <div class="form-group">
+                    <label for="price">Price:</label>
+                    <input type="text" class="form-control" id="price" name="price">
+                </div>
+                <div class="form-group">
+                    <label for="parent_category">Parent Category:</label>
+                    <input type="text" class="form-control" id="parent_category" name="parent_category">
+                </div>
+                <div class="form-group">
+                    <label for="child_category">Child Category:</label>
+                    <input type="text" class="form-control" id="child_category" name="child_category">
+                </div>
+                <div class="form-group">
+                    <label for="sub_child_category">Sub Child Category:</label>
+                    <input type="text" class="form-control" id="sub_child_category" name="sub_child_category">
+                </div>
+                <div class="form-group">
+                    <label for="description">Description:</label>
+                    <textarea class="form-control" id="description" name="description"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Quantity:</label>
+                    <input type="text" class="form-control" id="quantity" name="quantity">
+                </div>
+                <div class="form-group">
+                    <label for="mrp">MRP:</label>
+                    <input type="text" class="form-control" id="mrp" name="mrp">
+                </div>
+                <!-- Add image input if needed -->
+                <button type="submit" class="btn btn-primary">Save</button>
+            </form>
+        </div>
+        
+        <!-- Display product details here -->
+        <div class="mt-4" id="product-details">
+            <h2>Product Details</h2>
+            <ul id="product-details-list">
+                <!-- Product details will be added dynamically here -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Include jQuery for AJAX -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Submit form via AJAX when image is uploaded
+            $('#upload-form').submit(function(event) {
+                event.preventDefault();
+                var formData = new FormData($(this)[0]);
+
+                $.ajax({
+                    url: $(this).attr('action'),
+                    type: $(this).attr('method'),
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function(response) {
+                        // Display product details
+                        displayProductDetails(response);
+                        // Show edit product form
+                        $('#edit-product').show();
+                    },
+                    error: function(xhr, status, error) {
+                        console.log(xhr.responseText);
+                    }
+                });
+            });
+
+            // Submit edit product form via AJAX
+            $('#edit-product-form').submit(function(event) {
+                event.preventDefault();
+                var formData = $(this).serialize();
+            
+                $.ajax({
+                    url: 'http://34.122.223.224:9002/api/products/',
+                    type: 'POST',
+                    data: formData,
+                    success: function(response) {
+                        // Optionally, handle success response
+                        console.log(response);
+                    },
+                    error: function(xhr, status, error) {
+                        console.log(xhr.responseText);
+                    }
+                });
+            });
+
+            function displayProductDetails(details) {
+                $('#product-details-list').empty();
+                $.each(details, function(key, value) {
+                    $('#product-details-list').append('<li><strong>' + key + ':</strong> ' + value + '</li>');
+                    // Populate edit product form fields
+                    $('#edit-product-form').find('[name="' + key + '"]').val(value);
+                });
+            }
+            
+        });
+    </script>
+</body>
+</html>

@@ -20,42 +20,52 @@
         .card {
             margin-bottom: 20px;
         }
+        .voice-edit-btn:hover {
+            text-decoration: none; /* Remove underline on hover */
+            color: #007bff; /* Change text color on hover */
+          }
     </style>
 </head>
 <header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-          <a class="navbar-brand" href="{% url 'index' %}">HomePage</a>
-      </div>
-  </nav>
-</header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="{% url 'index' %}" style="font-weight: bold;">HomePage</a>
+            <a href="{% url 'add_product_by_image' %}" class="btn btn-primary ml-1" style="padding: 0.5rem 1rem; font-size: 1rem;">Add a Product by Image</a>
+        </div>
+    </nav>
+  </header>
 <body>
 
 <div class="container catalogue-container">
-    <div class="search-bar-container">
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-        <span id="product-count">Number of Products: {{ products|length }}</span>
-    </div>
-    <div class="row" id="product-row">
-        <!-- Product cards will be inserted here -->
-        {% for product in products %}
-        <div class="col-md-4">
-            <div class="card">
-                <img class="card-img-top" src="{{ product.first_image_url }}" alt="Product Image">
-                <div class="card-body">
-                    <h5 class="card-title">{{ product.product_name }}</h5>
-                    <p class="card-text">Barcode: {{ product.barcode }}</p>
-                    <p class="card-text">Brand: {{ product.brand }}</p>
-                    <!-- Add more product attributes here -->
-                    <a href="{% url 'product_detail' product.id %}" class="btn btn-primary">View Details</a>
+  <div class="search-bar-container">
+    <form class="form-inline my-2 my-lg-0" method="GET" action="{% url 'index' %}">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="q" value="{{ request.GET.q }}">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    <span id="product-count">Number of Products: {{ products|length }}</span>
+  </div>
+  <div class="row" id="product-row">
+    <!-- Product cards will be inserted here -->
+    {% for product in products %}
+    <div class="col-md-4">
+        <div class="card">
+            {% if product.first_image_url %}
+            <img class="card-img-top" src="{{ product.first_image_url }}" alt="Product Image">
+            {% endif %}
+            <div class="card-body">
+                <h5 class="card-title">{{ product.product_name }}</h5>
+                <p class="card-text">Description: {{ product.description }}</p>
+                <p class="card-text">Brand: {{ product.brand }}</p>
+                <div class="d-flex justify-content-between align-items-center">
+                    <a href="{% url 'product_detail' product.id %}" class="btn btn-primary btn-sm mb-2">View Details</a>
+                    <a href="{% url 'voice_product_detail' product.id %}" class="btn btn-secondary btn-sm mb-2">Voice Edit</a>
                 </div>
             </div>
         </div>
-        {% endfor %}
     </div>
+    {% endfor %}
+</div>
+
 </div>
 
 <!-- Include Bootstrap JS and its dependencies -->
