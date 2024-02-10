@@ -1,3 +1,4 @@
+<!-- Replace the existing HTML code with this -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,6 +22,13 @@
         }
     </style>
 </head>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+          <a class="navbar-brand" href="{% url 'index' %}">HomePage</a>
+      </div>
+  </nav>
+</header>
 <body>
 
 <div class="container catalogue-container">
@@ -29,10 +37,24 @@
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
-        <span id="product-count">Number of Products: 0</span>
+        <span id="product-count">Number of Products: {{ products|length }}</span>
     </div>
     <div class="row" id="product-row">
         <!-- Product cards will be inserted here -->
+        {% for product in products %}
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="{{ product.first_image_url }}" alt="Product Image">
+                <div class="card-body">
+                    <h5 class="card-title">{{ product.product_name }}</h5>
+                    <p class="card-text">Barcode: {{ product.barcode }}</p>
+                    <p class="card-text">Brand: {{ product.brand }}</p>
+                    <!-- Add more product attributes here -->
+                    <a href="{% url 'product_detail' product.id %}" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
     </div>
 </div>
 
@@ -40,54 +62,6 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.3/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-<script>
-    // Array of products (replace with your own data)
-    var products = [
-        {
-            title: "Product Title 1",
-            text: "Description for product 1",
-            imageUrl: "https://plus.unsplash.com/premium_photo-1684164601738-cf486690c601?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHx8"
-        },
-        {
-            title: "Product Title 2",
-            text: "Description for product 2",
-            imageUrl: "https://plus.unsplash.com/premium_photo-1684164601738-cf486690c601?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHx8"
-        },
-        // Add more products as needed
-    ];
-
-    function displayProducts(products) {
-        var productRow = document.getElementById('product-row');
-        var productCount = document.getElementById('product-count');
-        
-        // Clear previous products
-        productRow.innerHTML = '';
-
-        // Add new product cards
-        products.forEach(function(product) {
-            var colDiv = document.createElement('div');
-            colDiv.className = 'col-md-4';
-            colDiv.innerHTML = `
-                <div class="card">
-                    <img class="card-img-top" src="${product.imageUrl}" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">${product.title}</h5>
-                        <p class="card-text">${product.text}</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            `;
-            productRow.appendChild(colDiv);
-        });
-
-        // Update product count
-        productCount.textContent = 'Number of Products: ' + products.length;
-    }
-
-    // Initialize display with products
-    displayProducts(products);
-</script>
 
 </body>
 </html>
