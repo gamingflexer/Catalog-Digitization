@@ -88,26 +88,13 @@ def upload_image_and_audio(request):
             with open(image_path, 'wb') as f:
                 for chunk in image.chunks():
                     f.write(chunk)
-            # Process the uploaded image and get product details
-            # product_detail = get_data_openai(image_path)
-            # product_details.append(product_detail)
         
-        # Handle audio recording
-        if 'audio_data' in request.POST:
-            # Save the audio data locally
-            audio_data = request.POST['audio_data']
-            audio_path = os.path.join(settings.STATIC_ROOT, 'audio', 'recorded_audio.wav')
-            with open(audio_path, 'wb') as f:
-                f.write(audio_data)
-            # Process the uploaded image and get product details
-            # product_detail = get_data_openai(image_path)
-            # product_details.append(product_detail)
-        # Dummy data for testing - You can replace this with actual data retrieved from the AI model
         product_details  = []
         dummy_data = [
             {'barcode': '123456', 'brand': 'Brand A', 'manufactured_by': 'Manufacturer A', 'product_name': 'Product A', 'weight': 1.5, 'variant': 'Variant A', 'net_content': '100ml', 'price': 10.0, 'parent_category': 'Category A', 'child_category': 'Subcategory A', 'description': 'Description for Product A', 'quantity': 100, 'mrp': '20.0'},
             {'barcode': '654321', 'brand': 'Brand B', 'manufactured_by': 'Manufacturer B', 'product_name': 'Product B', 'weight': 2.0, 'variant': 'Variant B', 'net_content': '200ml', 'price': 15.0, 'parent_category': 'Category B', 'child_category': 'Subcategory B', 'description': 'Description for Product B', 'quantity': 200, 'mrp': '25.0'}
         ]
+        # product = Product.objects.create(data)
         product_details.extend(dummy_data)
         return JsonResponse(dummy_data[0], safe=False)  # Return product details as JSON response
     return render(request, 'upload_image.html')
