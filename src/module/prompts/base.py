@@ -11,7 +11,7 @@ base_prompt = dedent("""
         this is the categorys list ['BEVERAGES', 'SNACKS & BRANDED FOODS', 'NOT FOUND', 'EGGS, MEAT & FISH', 'FOODGRAINS, OIL & MASALA', 'PERSONAL CARE', 'CLEANING & HOUSEHOLD', 'FRUITS & VEGETABLES', 'BAKERY, CAKES & DAIRY', 'MAKEUP', 'BABY CARE', 'PET FOOD & ACCESSORIES', 'NON FMCG', 'ALCOHOL & TOBACCO', 'WELLNESS', 'EVERYDAY MEDICINE-NEW', 'EXCERCISE & FITNESS', 'ALCOHOLIC BEVERAGES'].
 
         Analyse data from the above product description to give me the following details in JSON format:
-        ( return "NOT FOUND" where you don't have a answer)
+        ( return "null" where you don't have a answer)
         {{
         "brand": "sample_brand",
         "mrp": "The price might start with MRP or Rs.",
