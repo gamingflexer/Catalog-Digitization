@@ -1,0 +1,4636 @@
+[
+  {
+    "id": 1,
+    "name": "BEVERAGES",
+    "children": [
+      {
+        "id": 2,
+        "name": "ENERGY & SOFT DRINKS",
+        "children": [
+          {
+            "id": 3,
+            "name": "SPORTS & ENERGY DRINKS",
+            "children": []
+          },
+          {
+            "id": 4,
+            "name": "SODA",
+            "children": []
+          },
+          {
+            "id": 98,
+            "name": "COLD DRINKS",
+            "children": []
+          },
+          {
+            "id": 895,
+            "name": "SOFT & COCKTAIL DRINKS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "FRUIT JUICES & DRINKS",
+        "children": [
+          {
+            "id": 15,
+            "name": "JUICES",
+            "children": []
+          },
+          {
+            "id": 186,
+            "name": "SYRUPS & CONCENTRATES",
+            "children": []
+          },
+          {
+            "id": 352,
+            "name": "UNSWEETENED, COLD PRESS",
+            "children": []
+          },
+          {
+            "id": 858,
+            "name": "CHOCOLATE SYRUPS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "TEA",
+        "children": [
+          {
+            "id": 17,
+            "name": "TEA BAGS",
+            "children": []
+          },
+          {
+            "id": 18,
+            "name": "GREEN TEA",
+            "children": []
+          },
+          {
+            "id": 19,
+            "name": "LEAF & DUST TEA",
+            "children": []
+          },
+          {
+            "id": 432,
+            "name": "READY TO DRINK",
+            "children": []
+          },
+          {
+            "id": 487,
+            "name": "EXOTIC & FLAVOURED TEA",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 110,
+        "name": "HEALTH DRINK, SUPPLEMENT",
+        "children": [
+          {
+            "id": 12,
+            "name": "HEALTH DRINKS",
+            "children": []
+          },
+          {
+            "id": 111,
+            "name": "MEN & WOMEN",
+            "children": []
+          },
+          {
+            "id": 436,
+            "name": "KIDS (5+YRS)",
+            "children": []
+          },
+          {
+            "id": 444,
+            "name": "CHILDREN (2-5 YRS)",
+            "children": []
+          },
+          {
+            "id": 518,
+            "name": "GLUCOSE POWDER, TABLETS",
+            "children": []
+          },
+          {
+            "id": 542,
+            "name": "DIABETIC DRINKS",
+            "children": []
+          },
+          {
+            "id": 911,
+            "name": "HOT CHOCOLATE, DRINKING CHOCOLATE",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 117,
+        "name": "WATER",
+        "children": [
+          {
+            "id": 118,
+            "name": "SPRING WATER",
+            "children": []
+          },
+          {
+            "id": 140,
+            "name": "PACKAGED WATER",
+            "children": []
+          },
+          {
+            "id": 603,
+            "name": "FLAVOURED WATER",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 182,
+        "name": "COFFEE",
+        "children": [
+          {
+            "id": 183,
+            "name": "INSTANT COFFEE",
+            "children": []
+          },
+          {
+            "id": 198,
+            "name": "GROUND COFFEE",
+            "children": []
+          },
+          {
+            "id": 387,
+            "name": "COFFEE & PRE-MIX",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 956,
+        "name": "PLANT MILK",
+        "children": [
+          {
+            "id": 957,
+            "name": "ALMOND MILK",
+            "children": []
+          },
+          {
+            "id": 958,
+            "name": "SOYA MILK",
+            "children": []
+          },
+          {
+            "id": 959,
+            "name": "OTHER PLANT MILK (CASHEW, OATS & OTHERS)",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 969,
+        "name": "COCKTAIL MOCKTAIL DRINKS & MIXES",
+        "children": [
+          {
+            "id": 970,
+            "name": "COCKTAIL MOCKTAIL DRINKS & MIXES",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "SNACKS & BRANDED FOODS",
+    "children": [
+      {
+        "id": 10,
+        "name": "SNACKS & NAMKEEN",
+        "children": [
+          {
+            "id": 11,
+            "name": "PUFFS & CORN SNACKS",
+            "children": []
+          },
+          {
+            "id": 54,
+            "name": "NAMKEEN & SAVOURY SNACKS",
+            "children": []
+          },
+          {
+            "id": 71,
+            "name": "CEREAL & GRANOLA BARS",
+            "children": []
+          },
+          {
+            "id": 87,
+            "name": "GOURMET POPCORN",
+            "children": []
+          },
+          {
+            "id": 96,
+            "name": "ROASTED SEEDS & NUTS",
+            "children": []
+          },
+          {
+            "id": 141,
+            "name": "NACHOS & CHIPS",
+            "children": []
+          },
+          {
+            "id": 209,
+            "name": "HEALTHY, BAKED SNACKS, ROASTED MAKHANA",
+            "children": []
+          },
+          {
+            "id": 588,
+            "name": "TRAIL & COCKTAIL MIXES",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "name": "BISCUITS & COOKIES",
+        "children": [
+          {
+            "id": 53,
+            "name": "COOKIES",
+            "children": []
+          },
+          {
+            "id": 90,
+            "name": "SALTED BISCUITS",
+            "children": []
+          },
+          {
+            "id": 91,
+            "name": "GLUCOSE & MILK BISCUITS",
+            "children": []
+          },
+          {
+            "id": 113,
+            "name": "BISCOTTI, WAFERS",
+            "children": []
+          },
+          {
+            "id": 283,
+            "name": "CREAM BISCUITS",
+            "children": []
+          },
+          {
+            "id": 284,
+            "name": "MARIE",
+            "children": []
+          },
+          {
+            "id": 426,
+            "name": "CRACKERS",
+            "children": []
+          },
+          {
+            "id": 967,
+            "name": "HEALTH & DIGESTIVE BISCUITS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 55,
+        "name": "READY TO EAT CEREALS",
+        "children": [
+          {
+            "id": 101,
+            "name": "MUESLI",
+            "children": []
+          },
+          {
+            "id": 912,
+            "name": "KIDS FLAKES",
+            "children": []
+          },
+          {
+            "id": 913,
+            "name": "FAMILY FLAKES",
+            "children": []
+          },
+          {
+            "id": 968,
+            "name": "GRANOLA",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 58,
+        "name": "READY TO COOK & EAT",
+        "children": [
+          {
+            "id": 59,
+            "name": "PAPADS, READY TO FRY",
+            "children": []
+          },
+          {
+            "id": 64,
+            "name": "BAKING MIXES",
+            "children": []
+          },
+          {
+            "id": 116,
+            "name": "HEAT & EAT READY MEALS",
+            "children": []
+          },
+          {
+            "id": 165,
+            "name": "INDIAN BREAKFAST MIXES",
+            "children": []
+          },
+          {
+            "id": 238,
+            "name": "OLIVE, JALAPENO, GHERKIN",
+            "children": []
+          },
+          {
+            "id": 346,
+            "name": "CANNED FISH & TUNA",
+            "children": []
+          },
+          {
+            "id": 369,
+            "name": "SOUPS",
+            "children": []
+          },
+          {
+            "id": 370,
+            "name": "DESSERT MIXES",
+            "children": []
+          },
+          {
+            "id": 472,
+            "name": "CANNED FRUITS & PULPS",
+            "children": []
+          },
+          {
+            "id": 496,
+            "name": "CANNED TOMATOES & VEGETABLES",
+            "children": []
+          },
+          {
+            "id": 523,
+            "name": "CANNED FOOD",
+            "children": []
+          },
+          {
+            "id": 646,
+            "name": "MEATS & SAUSAGES",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 60,
+        "name": "INDIAN MITHAI",
+        "children": [
+          {
+            "id": 61,
+            "name": "CHIKKI & GAJJAK",
+            "children": []
+          },
+          {
+            "id": 114,
+            "name": "FRESH SWEETS",
+            "children": []
+          },
+          {
+            "id": 241,
+            "name": "TINNED, PACKED SWEETS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "name": "SPREADS, SAUCES, KETCHUP",
+        "children": [
+          {
+            "id": 63,
+            "name": "HONEY",
+            "children": []
+          },
+          {
+            "id": 223,
+            "name": "BALSAMIC & CIDER VINEGAR",
+            "children": []
+          },
+          {
+            "id": 228,
+            "name": "MAYONNAISE",
+            "children": []
+          },
+          {
+            "id": 231,
+            "name": "TOMATO KETCHUP & SAUCES",
+            "children": []
+          },
+          {
+            "id": 233,
+            "name": "MAPLE SYRUP",
+            "children": []
+          },
+          {
+            "id": 234,
+            "name": "MUSTARD & CHEESE SAUCES",
+            "children": []
+          },
+          {
+            "id": 235,
+            "name": "THAI & ASIAN SAUCES",
+            "children": []
+          },
+          {
+            "id": 236,
+            "name": "CHOCOLATE SPREAD",
+            "children": []
+          },
+          {
+            "id": 237,
+            "name": "SALAD DRESSINGS",
+            "children": []
+          },
+          {
+            "id": 243,
+            "name": "HUMMUS, CHEESE, SALSA DIP",
+            "children": []
+          },
+          {
+            "id": 355,
+            "name": "CHILLI & SOYA SAUCE",
+            "children": []
+          },
+          {
+            "id": 511,
+            "name": "DIPS & DRESSINGS",
+            "children": []
+          },
+          {
+            "id": 558,
+            "name": "JAM, CONSERVE, MARMALADE",
+            "children": []
+          },
+          {
+            "id": 605,
+            "name": "REGULAR & WHITE VINEGAR",
+            "children": []
+          },
+          {
+            "id": 869,
+            "name": "SANDWICH SPREAD",
+            "children": []
+          },
+          {
+            "id": 873,
+            "name": "PIZZA & PASTA SAUCE",
+            "children": []
+          },
+          {
+            "id": 910,
+            "name": "PEANUT BUTTER",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 68,
+        "name": "CHOCOLATES & CANDIES",
+        "children": [
+          {
+            "id": 69,
+            "name": "TOFFEE, CANDY & LOLLYPOP",
+            "children": []
+          },
+          {
+            "id": 70,
+            "name": "CHOCOLATES",
+            "children": []
+          },
+          {
+            "id": 88,
+            "name": "MARSHMELLOW & JELLY",
+            "children": []
+          },
+          {
+            "id": 213,
+            "name": "MINTS & CHEWING GUM",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "name": "NOODLE, PASTA, VERMICELLI",
+        "children": [
+          {
+            "id": 106,
+            "name": "INSTANT PASTA",
+            "children": []
+          },
+          {
+            "id": 108,
+            "name": "PASTAS",
+            "children": []
+          },
+          {
+            "id": 272,
+            "name": "VERMICELLI",
+            "children": []
+          },
+          {
+            "id": 329,
+            "name": "INSTANT NOODLES",
+            "children": []
+          },
+          {
+            "id": 491,
+            "name": "HAKKA NOODLES",
+            "children": []
+          },
+          {
+            "id": 665,
+            "name": "CUP NOODLES",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 229,
+        "name": "FROZEN VEGGIES MEAT & SNACKS",
+        "children": [
+          {
+            "id": 230,
+            "name": "FROZEN VEGETABLES",
+            "children": []
+          },
+          {
+            "id": 246,
+            "name": "FROZEN VEG SNACKS",
+            "children": []
+          },
+          {
+            "id": 267,
+            "name": "FROZEN FISH & SEAFOOD",
+            "children": []
+          },
+          {
+            "id": 454,
+            "name": "FROZEN INDIAN BREADS",
+            "children": []
+          },
+          {
+            "id": 596,
+            "name": "FROZEN CHICKEN",
+            "children": []
+          },
+          {
+            "id": 631,
+            "name": "FROZEN NON-VEG SNACKS",
+            "children": []
+          },
+          {
+            "id": 872,
+            "name": "FROZEN MEATS",
+            "children": []
+          },
+          {
+            "id": 964,
+            "name": "FROZEN PORK",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 327,
+        "name": "PICKLES & CHUTNEY",
+        "children": [
+          {
+            "id": 328,
+            "name": "OTHER VEG PICKLE",
+            "children": []
+          },
+          {
+            "id": 367,
+            "name": "LIME & MANGO PICKLE",
+            "children": []
+          },
+          {
+            "id": 532,
+            "name": "CHUTNEY POWDER",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 914,
+        "name": "OATS & PORRIDGE",
+        "children": [
+          {
+            "id": 357,
+            "name": "OATS & PORRIDGE",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "NOT FOUND",
+    "children": [
+      {
+        "id": 783,
+        "name": "NOT FOUND",
+        "children": [
+          {
+            "id": 784,
+            "name": "NOT FOUND",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "EGGS, MEAT & FISH",
+    "children": [
+      {
+        "id": 21,
+        "name": "EGGS",
+        "children": [
+          {
+            "id": 22,
+            "name": "FARM EGGS",
+            "children": []
+          },
+          {
+            "id": 347,
+            "name": "COUNTRY EGGS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 266,
+        "name": "FISH & SEAFOOD",
+        "children": [
+          {
+            "id": 633,
+            "name": "PRAWNS & SHRIMPS",
+            "children": []
+          },
+          {
+            "id": 681,
+            "name": "CANNED SEAFOOD",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 452,
+        "name": "SAUSAGES, BACON & SALAMI",
+        "children": [
+          {
+            "id": 453,
+            "name": "CHICKEN SAUSAGES",
+            "children": []
+          },
+          {
+            "id": 497,
+            "name": "PORK & HAM",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 595,
+        "name": "POULTRY",
+        "children": [
+          {
+            "id": 739,
+            "name": "FRESH CHICKEN",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 699,
+        "name": "MUTTON & LAMB",
+        "children": [
+          {
+            "id": 700,
+            "name": "FRESH MUTTON",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 727,
+        "name": "MARINADES",
+        "children": [
+          {
+            "id": 728,
+            "name": "MARINATED MEAT",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 779,
+        "name": "PORK & OTHER MEATS",
+        "children": [
+          {
+            "id": 780,
+            "name": "FRESH PORK",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "FOODGRAINS, OIL & MASALA",
+    "children": [
+      {
+        "id": 24,
+        "name": "ORGANIC STAPLES",
+        "children": [
+          {
+            "id": 25,
+            "name": "ORGANIC FLOURS",
+            "children": []
+          },
+          {
+            "id": 32,
+            "name": "ORGANIC DALS & PULSES",
+            "children": []
+          },
+          {
+            "id": 35,
+            "name": "ORGANIC RICE, OTHER RIC",
+            "children": []
+          },
+          {
+            "id": 38,
+            "name": "ORGANIC MASALAS & SPICES",
+            "children": []
+          },
+          {
+            "id": 39,
+            "name": "ORGANIC SUGAR, JAGGERY",
+            "children": []
+          },
+          {
+            "id": 40,
+            "name": "ORGANIC DRY FRUITS",
+            "children": []
+          },
+          {
+            "id": 460,
+            "name": "QUINOA & GRAINS",
+            "children": []
+          },
+          {
+            "id": 522,
+            "name": "ORGANIC EDIBLE OIL",
+            "children": []
+          },
+          {
+            "id": 897,
+            "name": "ORGANICS DALS & PULSES",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "SALT, SUGAR & JAGGERY",
+        "children": [
+          {
+            "id": 27,
+            "name": "SALTS",
+            "children": []
+          },
+          {
+            "id": 50,
+            "name": "EXOTIC SUGAR & SALT",
+            "children": []
+          },
+          {
+            "id": 171,
+            "name": "SUGAR & JAGGERY",
+            "children": []
+          },
+          {
+            "id": 433,
+            "name": "SUGARFREE SWEETENERS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "ATTA, FLOURS & SOOJI",
+        "children": [
+          {
+            "id": 29,
+            "name": "ATTA WHOLE WHEAT",
+            "children": []
+          },
+          {
+            "id": 51,
+            "name": "FLOURS & PRE-MIXES",
+            "children": []
+          },
+          {
+            "id": 104,
+            "name": "SOOJI, MAIDA & BESAN",
+            "children": []
+          },
+          {
+            "id": 172,
+            "name": "RICE & OTHER FLOURS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "name": "DALS & PULSES",
+        "children": [
+          {
+            "id": 31,
+            "name": "TOOR, CHANNA & MOONG DAL",
+            "children": []
+          },
+          {
+            "id": 159,
+            "name": "URAD & OTHER DALS",
+            "children": []
+          },
+          {
+            "id": 170,
+            "name": "CEREALS & MILLETS",
+            "children": []
+          },
+          {
+            "id": 225,
+            "name": "BEANS & PULSES",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "name": "RICE & RICE PRODUCTS",
+        "children": [
+          {
+            "id": 34,
+            "name": "POHA, SABUDANA & MURMURA",
+            "children": []
+          },
+          {
+            "id": 48,
+            "name": "BASMATI RICE",
+            "children": []
+          },
+          {
+            "id": 162,
+            "name": "BOILED & STEAM RICE",
+            "children": []
+          },
+          {
+            "id": 163,
+            "name": "RAW RICE",
+            "children": []
+          },
+          {
+            "id": 701,
+            "name": "JASMINE & SUSHI RICE",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "name": "MASALAS & SPICES",
+        "children": [
+          {
+            "id": 37,
+            "name": "POWDERED SPICES",
+            "children": []
+          },
+          {
+            "id": 46,
+            "name": "BLENDED MASALAS",
+            "children": []
+          },
+          {
+            "id": 112,
+            "name": "HERBS & SEASONING",
+            "children": []
+          },
+          {
+            "id": 115,
+            "name": "WHOLE SPICES",
+            "children": []
+          },
+          {
+            "id": 192,
+            "name": "LEMON, GINGER & GARLIC",
+            "children": []
+          },
+          {
+            "id": 226,
+            "name": "INDIAN & EXOTIC HERBS",
+            "children": []
+          },
+          {
+            "id": 368,
+            "name": "COOKING PASTES",
+            "children": []
+          },
+          {
+            "id": 400,
+            "name": "HERBS, SEASONINGS & RUBS",
+            "children": []
+          },
+          {
+            "id": 411,
+            "name": "COCOA POWDER",
+            "children": []
+          },
+          {
+            "id": 430,
+            "name": "CURRY PASTE, COCONUT MILK",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "DRY FRUITS",
+        "children": [
+          {
+            "id": 42,
+            "name": "RAISINS",
+            "children": []
+          },
+          {
+            "id": 92,
+            "name": "OTHER DRY FRUITS",
+            "children": []
+          },
+          {
+            "id": 97,
+            "name": "DRY FRUITS & BERRIES",
+            "children": []
+          },
+          {
+            "id": 193,
+            "name": "ALMONDS",
+            "children": []
+          },
+          {
+            "id": 244,
+            "name": "CASHEWS",
+            "children": []
+          },
+          {
+            "id": 342,
+            "name": "MUKHWAS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "name": "EDIBLE OILS",
+        "children": [
+          {
+            "id": 44,
+            "name": "SOYA & MUSTARD OILS",
+            "children": []
+          },
+          {
+            "id": 45,
+            "name": "OTHER EDIBLE OILS",
+            "children": []
+          },
+          {
+            "id": 47,
+            "name": "SUNFLOWER, RICE BRAN OI",
+            "children": []
+          },
+          {
+            "id": 103,
+            "name": "GINGELLY, GROUNDNUT OILS",
+            "children": []
+          },
+          {
+            "id": 190,
+            "name": "EXTRA VIRGIN OLIVE OIL",
+            "children": []
+          },
+          {
+            "id": 402,
+            "name": "OLIVE & CANOLA OILS",
+            "children": []
+          },
+          {
+            "id": 437,
+            "name": "PURE, POMACE OLIVE OIL",
+            "children": []
+          },
+          {
+            "id": 438,
+            "name": "CANOLA & RAPESEED OIL",
+            "children": []
+          },
+          {
+            "id": 521,
+            "name": "BLENDED COOKING OILS",
+            "children": []
+          },
+          {
+            "id": 564,
+            "name": "FLAVOURED & OTHER OILS",
+            "children": []
+          },
+          {
+            "id": 671,
+            "name": "ORGANIC & COLD PRESS OIL",
+            "children": []
+          },
+          {
+            "id": 787,
+            "name": "VANASPATI",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "PERSONAL CARE",
+    "children": [
+      {
+        "id": 99,
+        "name": "FRAGRANCES & DEOS",
+        "children": [
+          {
+            "id": 100,
+            "name": "MEN DEODORANTS",
+            "children": []
+          },
+          {
+            "id": 146,
+            "name": "WOMEN'S DEODORANTS",
+            "children": []
+          },
+          {
+            "id": 147,
+            "name": "EAU DE TOILETTE",
+            "children": []
+          },
+          {
+            "id": 148,
+            "name": "BODY SPRAYS & MISTS",
+            "children": []
+          },
+          {
+            "id": 351,
+            "name": "EAU DE PARFUM",
+            "children": []
+          },
+          {
+            "id": 493,
+            "name": "PERFUME",
+            "children": []
+          },
+          {
+            "id": 649,
+            "name": "GIFT SETS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 123,
+        "name": "HAIR CARE",
+        "children": [
+          {
+            "id": 124,
+            "name": "HAIR OIL",
+            "children": []
+          },
+          {
+            "id": 188,
+            "name": "SHAMPOO",
+            "children": []
+          },
+          {
+            "id": 206,
+            "name": "HAIR & SCALP TREATMENT",
+            "children": []
+          },
+          {
+            "id": 242,
+            "name": "TOOLS & ACCESSORIES",
+            "children": []
+          },
+          {
+            "id": 288,
+            "name": "HAIR COLOR",
+            "children": []
+          },
+          {
+            "id": 289,
+            "name": "CONDITIONER",
+            "children": []
+          },
+          {
+            "id": 296,
+            "name": "SHAMPOO & CONDITIONER",
+            "children": []
+          },
+          {
+            "id": 384,
+            "name": "HAIR STYLING",
+            "children": []
+          },
+          {
+            "id": 853,
+            "name": "HAIR SERUM",
+            "children": []
+          },
+          {
+            "id": 931,
+            "name": "HAIR MASK",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 126,
+        "name": "BODY CARE",
+        "children": [
+          {
+            "id": 290,
+            "name": "TALCUM POWDER",
+            "children": []
+          },
+          {
+            "id": 866,
+            "name": "BODY LOTIONS & CREAMS",
+            "children": []
+          },
+          {
+            "id": 867,
+            "name": "BODY MASSAGE OILS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 132,
+        "name": "BATH & HAND WASH",
+        "children": [
+          {
+            "id": 133,
+            "name": "HAND WASH",
+            "children": []
+          },
+          {
+            "id": 153,
+            "name": "SHOWER GEL & BODY WASH",
+            "children": []
+          },
+          {
+            "id": 187,
+            "name": "BATHING BARS & SOAPS",
+            "children": []
+          },
+          {
+            "id": 325,
+            "name": "BATHING ACCESSORIES",
+            "children": []
+          },
+          {
+            "id": 745,
+            "name": "BODY SCRUBS & EXFOLIANTS",
+            "children": []
+          },
+          {
+            "id": 842,
+            "name": "SANITIZERS",
+            "children": []
+          },
+          {
+            "id": 843,
+            "name": "BATH SALTS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 142,
+        "name": "EYE CARE",
+        "children": [
+          {
+            "id": 859,
+            "name": "EYE CREAM & SERUMS",
+            "children": []
+          },
+          {
+            "id": 860,
+            "name": "EYE MASKS",
+            "children": []
+          },
+          {
+            "id": 861,
+            "name": "EYE MAKEUP REMOVER",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 177,
+        "name": "ORAL CARE",
+        "children": [
+          {
+            "id": 178,
+            "name": "TOOTHBRUSH",
+            "children": []
+          },
+          {
+            "id": 268,
+            "name": "TOOTHPASTE",
+            "children": []
+          },
+          {
+            "id": 295,
+            "name": "MOUTHWASH",
+            "children": []
+          },
+          {
+            "id": 499,
+            "name": "FLOSS & TONGUE CLEANER",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 214,
+        "name": "FEMININE HYGIENE",
+        "children": [
+          {
+            "id": 215,
+            "name": "SANITARY NAPKINS",
+            "children": []
+          },
+          {
+            "id": 287,
+            "name": "HAIR REMOVAL",
+            "children": []
+          },
+          {
+            "id": 396,
+            "name": "INTIMATE WASH & CARE",
+            "children": []
+          },
+          {
+            "id": 397,
+            "name": "PANTY LINERS",
+            "children": []
+          },
+          {
+            "id": 636,
+            "name": "TAMPONS & MENSTRUAL CUPS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 293,
+        "name": "MEN'S GROOMING",
+        "children": [
+          {
+            "id": 294,
+            "name": "SHAVING CARE",
+            "children": []
+          },
+          {
+            "id": 419,
+            "name": "MOUSTACHE & BEARD CARE",
+            "children": []
+          },
+          {
+            "id": 559,
+            "name": "FACE & BODY",
+            "children": []
+          },
+          {
+            "id": 854,
+            "name": "SHAVERS & TRIMMERS",
+            "children": []
+          },
+          {
+            "id": 855,
+            "name": "RAZORS & CARTRIDGES",
+            "children": []
+          },
+          {
+            "id": 856,
+            "name": "SHAVING CREAM, FOAM & GELS",
+            "children": []
+          },
+          {
+            "id": 857,
+            "name": "PRE & POST SHAVES",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 371,
+        "name": "LIP CARE",
+        "children": [
+          {
+            "id": 862,
+            "name": "LIP BALM",
+            "children": []
+          },
+          {
+            "id": 863,
+            "name": "LIP SCRUBS",
+            "children": []
+          },
+          {
+            "id": 864,
+            "name": "LIP MASKS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 829,
+        "name": "FACE CLEANSERS",
+        "children": [
+          {
+            "id": 793,
+            "name": "FACE WASH",
+            "children": []
+          },
+          {
+            "id": 830,
+            "name": "FACE WIPES",
+            "children": []
+          },
+          {
+            "id": 831,
+            "name": "MAKEUP REMOVER",
+            "children": []
+          },
+          {
+            "id": 832,
+            "name": "FACE SCRUBS & EXFOLIANTS",
+            "children": []
+          },
+          {
+            "id": 960,
+            "name": "MICELLAR WATER, ROSE WATER",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 833,
+        "name": "FACE TONERS",
+        "children": [
+          {
+            "id": 834,
+            "name": "FACE TONERS",
+            "children": []
+          },
+          {
+            "id": 835,
+            "name": "FACE MISTS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 836,
+        "name": "FACE MOISTURIZERS",
+        "children": [
+          {
+            "id": 792,
+            "name": "FACE CREAM",
+            "children": []
+          },
+          {
+            "id": 828,
+            "name": "FACE SERUM",
+            "children": []
+          },
+          {
+            "id": 837,
+            "name": "FACE OIL",
+            "children": []
+          },
+          {
+            "id": 838,
+            "name": "FACE ESSENCE",
+            "children": []
+          },
+          {
+            "id": 961,
+            "name": "BB-CC CREAM",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 839,
+        "name": "FACE MASKS",
+        "children": [
+          {
+            "id": 840,
+            "name": "MASKS & PEELS",
+            "children": []
+          },
+          {
+            "id": 841,
+            "name": "SHEET MASKS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 845,
+        "name": "SUN CARE",
+        "children": [
+          {
+            "id": 846,
+            "name": "FACE SUNSCREEN",
+            "children": []
+          },
+          {
+            "id": 847,
+            "name": "BODY SUNSCREEN",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 848,
+        "name": "HANDS & FOOT",
+        "children": [
+          {
+            "id": 850,
+            "name": "FOOT CREAMS",
+            "children": []
+          },
+          {
+            "id": 901,
+            "name": "HAND CREAMS",
+            "children": []
+          },
+          {
+            "id": 909,
+            "name": "HAND & FOOT MASK",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 852,
+        "name": "KITS & COMBOS",
+        "children": [
+          {
+            "id": 822,
+            "name": "FACIAL KITS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 868,
+        "name": "PERSONAL CARE ACCESSORIES",
+        "children": [
+          {
+            "id": 825,
+            "name": "FACE & BODY ACCESSORIES",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "CLEANING & HOUSEHOLD",
+    "children": [
+      {
+        "id": 78,
+        "name": "STATIONERY",
+        "children": [
+          {
+            "id": 79,
+            "name": "SCISSOR, GLUE & TAPE",
+            "children": []
+          },
+          {
+            "id": 109,
+            "name": "NOTEBOOKS, FILES, FOLDERS",
+            "children": []
+          },
+          {
+            "id": 145,
+            "name": "PEN, PENCILS",
+            "children": []
+          },
+          {
+            "id": 306,
+            "name": "COLOURS & CRAYONS",
+            "children": []
+          },
+          {
+            "id": 307,
+            "name": "ERASERS & SHARPENERS",
+            "children": []
+          },
+          {
+            "id": 308,
+            "name": "EXAM PADS & PENCIL BOX",
+            "children": []
+          },
+          {
+            "id": 468,
+            "name": "ART & CRAFT SUPPLIES",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 127,
+        "name": "FRESHENERS & REPELLENTS",
+        "children": [
+          {
+            "id": 128,
+            "name": "AIR FRESHENER",
+            "children": []
+          },
+          {
+            "id": 204,
+            "name": "MOSQUITO REPELLENT",
+            "children": []
+          },
+          {
+            "id": 205,
+            "name": "INSECT REPELLENT",
+            "children": []
+          },
+          {
+            "id": 827,
+            "name": "MOSQUITO REPELLENTS ACCESSORIES",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 143,
+        "name": "POOJA NEEDS",
+        "children": [
+          {
+            "id": 144,
+            "name": "AGARBATTI, INCENSE STICKS",
+            "children": []
+          },
+          {
+            "id": 181,
+            "name": "OTHER POOJA NEEDS",
+            "children": []
+          },
+          {
+            "id": 221,
+            "name": "CAMPHOR & WICKS",
+            "children": []
+          },
+          {
+            "id": 222,
+            "name": "LAMP & LAMP OIL",
+            "children": []
+          },
+          {
+            "id": 336,
+            "name": "CANDLES & MATCH BOX",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 160,
+        "name": "CAR & SHOE CARE",
+        "children": [
+          {
+            "id": 161,
+            "name": "CAR FRESHENER",
+            "children": []
+          },
+          {
+            "id": 372,
+            "name": "CAR POLISH & CLEANERS",
+            "children": []
+          },
+          {
+            "id": 488,
+            "name": "SHOE POLISH",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 173,
+        "name": "BINS & BATHROOM WARE",
+        "children": [
+          {
+            "id": 174,
+            "name": "BUCKETS & MUGS",
+            "children": []
+          },
+          {
+            "id": 502,
+            "name": "LAUNDRY, STORAGE BASKETS",
+            "children": []
+          },
+          {
+            "id": 587,
+            "name": "HANGERS, CLIPS & ROPE",
+            "children": []
+          },
+          {
+            "id": 707,
+            "name": "SOAP CASES & DISPENSERS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 175,
+        "name": "MOPS, BRUSHES & SCRUBS",
+        "children": [
+          {
+            "id": 176,
+            "name": "UTENSIL SCRUB-PAD, GLOVE",
+            "children": []
+          },
+          {
+            "id": 199,
+            "name": "DUST CLOTH & WIPES",
+            "children": []
+          },
+          {
+            "id": 297,
+            "name": "BROOMS & DUST PANS",
+            "children": []
+          },
+          {
+            "id": 450,
+            "name": "TOILET & OTHER BRUSHES",
+            "children": []
+          },
+          {
+            "id": 459,
+            "name": "MOPS, WIPERS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 200,
+        "name": "ALL PURPOSE CLEANERS",
+        "children": [
+          {
+            "id": 201,
+            "name": "KITCHEN, GLASS & DRAIN",
+            "children": []
+          },
+          {
+            "id": 319,
+            "name": "TOILET CLEANERS",
+            "children": []
+          },
+          {
+            "id": 320,
+            "name": "FLOOR & OTHER CLEANERS",
+            "children": []
+          },
+          {
+            "id": 383,
+            "name": "IMPORTED CLEANERS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 202,
+        "name": "DETERGENTS & DISHWASH",
+        "children": [
+          {
+            "id": 203,
+            "name": "DISHWASH LIQUIDS & PASTES",
+            "children": []
+          },
+          {
+            "id": 498,
+            "name": "DISHWASH BARS & POWDERS",
+            "children": []
+          },
+          {
+            "id": 501,
+            "name": "FABRIC PRE, POST WASH",
+            "children": []
+          },
+          {
+            "id": 519,
+            "name": "DETERGENT BARS",
+            "children": []
+          },
+          {
+            "id": 586,
+            "name": "KITCHEN & CLEANING GLOVES",
+            "children": []
+          },
+          {
+            "id": 971,
+            "name": "DETERGENT POWDER",
+            "children": []
+          },
+          {
+            "id": 972,
+            "name": "LAUNDRY LIQUID",
+            "children": []
+          },
+          {
+            "id": 973,
+            "name": "LAUNDRY PODS",
+            "children": []
+          },
+          {
+            "id": 974,
+            "name": "WASHING MACHINE DESCALER",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 207,
+        "name": "DISPOSABLES, GARBAGE BAG",
+        "children": [
+          {
+            "id": 208,
+            "name": "ALUMINIUM FOIL, CLINGWRAP",
+            "children": []
+          },
+          {
+            "id": 321,
+            "name": "GARBAGE BAGS",
+            "children": []
+          },
+          {
+            "id": 322,
+            "name": "PAPER NAPKIN, TISSUE BOX",
+            "children": []
+          },
+          {
+            "id": 442,
+            "name": "TOILET PAPER",
+            "children": []
+          },
+          {
+            "id": 443,
+            "name": "KITCHEN ROLLS",
+            "children": []
+          },
+          {
+            "id": 550,
+            "name": "WET WIPE, POCKET TISSUES",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 406,
+        "name": "PARTY & FESTIVE NEEDS",
+        "children": [
+          {
+            "id": 407,
+            "name": "DECORATIONS",
+            "children": []
+          },
+          {
+            "id": 408,
+            "name": "DISPOSABLE CUPS & PLATES",
+            "children": []
+          },
+          {
+            "id": 535,
+            "name": "GIFT WRAPS & BAGS",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "FRUITS & VEGETABLES",
+    "children": [
+      {
+        "id": 94,
+        "name": "EXOTIC FRUITS & VEGGIES",
+        "children": [
+          {
+            "id": 95,
+            "name": "EXOTIC FRUITS",
+            "children": []
+          },
+          {
+            "id": 495,
+            "name": "EXOTIC VEGETABLES",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 196,
+        "name": "CUTS & SPROUTS",
+        "children": [
+          {
+            "id": 197,
+            "name": "FRESH SALADS & SPROUTS",
+            "children": []
+          },
+          {
+            "id": 412,
+            "name": "CUT & PEELED VEGGIES",
+            "children": []
+          },
+          {
+            "id": 413,
+            "name": "CUT FRUIT, TENDER COCONUT",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 303,
+        "name": "FRESH FRUITS",
+        "children": [
+          {
+            "id": 304,
+            "name": "APPLES & POMEGRANATE",
+            "children": []
+          },
+          {
+            "id": 379,
+            "name": "SEASONAL FRUITS",
+            "children": []
+          },
+          {
+            "id": 414,
+            "name": "KIWI, MELON, CITRUS FRUIT",
+            "children": []
+          },
+          {
+            "id": 417,
+            "name": "BANANA, SAPOTA & PAPAYA",
+            "children": []
+          },
+          {
+            "id": 648,
+            "name": "FRUIT BASKETS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 415,
+        "name": "FRESH VEGETABLES",
+        "children": [
+          {
+            "id": 416,
+            "name": "LEAFY VEGETABLES",
+            "children": []
+          },
+          {
+            "id": 418,
+            "name": "BEANS, BRINJALS & OKRA",
+            "children": []
+          },
+          {
+            "id": 552,
+            "name": "POTATO, ONION & TOMATO",
+            "children": []
+          },
+          {
+            "id": 553,
+            "name": "GOURD, PUMPKIN, DRUMSTICK",
+            "children": []
+          },
+          {
+            "id": 554,
+            "name": "CUCUMBER & CAPSICUM",
+            "children": []
+          },
+          {
+            "id": 577,
+            "name": "ROOT VEGETABLES",
+            "children": []
+          },
+          {
+            "id": 578,
+            "name": "CABBAGE & CAULIFLOWER",
+            "children": []
+          },
+          {
+            "id": 898,
+            "name": "LADY FINGER",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 420,
+        "name": "ORGANIC FRUITS & VEGETABLES",
+        "children": [
+          {
+            "id": 421,
+            "name": "ORGANIC VEGETABLES",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "BAKERY, CAKES & DAIRY",
+    "children": [
+      {
+        "id": 121,
+        "name": "COOKIES, RUSK & KHARI",
+        "children": [
+          {
+            "id": 122,
+            "name": "BAKERY BISCUITS, COOKIES",
+            "children": []
+          },
+          {
+            "id": 285,
+            "name": "RUSKS",
+            "children": []
+          },
+          {
+            "id": 358,
+            "name": "KHARI & CREAM ROLLS",
+            "children": []
+          },
+          {
+            "id": 492,
+            "name": "PREMIUM COOKIES",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 154,
+        "name": "CAKES & PASTRIES",
+        "children": [
+          {
+            "id": 155,
+            "name": "MUFFINS & CUP CAKES",
+            "children": []
+          },
+          {
+            "id": 156,
+            "name": "TEA CAKES & SLICE CAKES",
+            "children": []
+          },
+          {
+            "id": 361,
+            "name": "DOUGHNUTS & MOUSSES",
+            "children": []
+          },
+          {
+            "id": 382,
+            "name": "BIRTHDAY & PARTY CAKES",
+            "children": []
+          },
+          {
+            "id": 449,
+            "name": "PASTRIES & BROWNIES",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 184,
+        "name": "DAIRY",
+        "children": [
+          {
+            "id": 185,
+            "name": "CHEESE",
+            "children": []
+          },
+          {
+            "id": 247,
+            "name": "MILK",
+            "children": []
+          },
+          {
+            "id": 248,
+            "name": "UHT MILK",
+            "children": []
+          },
+          {
+            "id": 251,
+            "name": "BUTTERMILK",
+            "children": []
+          },
+          {
+            "id": 252,
+            "name": "CURD",
+            "children": []
+          },
+          {
+            "id": 253,
+            "name": "LASSI",
+            "children": []
+          },
+          {
+            "id": 254,
+            "name": "PANEER",
+            "children": []
+          },
+          {
+            "id": 257,
+            "name": "FLAVOURED MILK",
+            "children": []
+          },
+          {
+            "id": 258,
+            "name": "CREAM",
+            "children": []
+          },
+          {
+            "id": 259,
+            "name": "BUTTER",
+            "children": []
+          },
+          {
+            "id": 261,
+            "name": "SHRIKHAND",
+            "children": []
+          },
+          {
+            "id": 318,
+            "name": "CHEESE SPREADS",
+            "children": []
+          },
+          {
+            "id": 366,
+            "name": "YOGURT",
+            "children": []
+          },
+          {
+            "id": 429,
+            "name": "TOFU",
+            "children": []
+          },
+          {
+            "id": 549,
+            "name": "GREEK YOGURT",
+            "children": []
+          },
+          {
+            "id": 785,
+            "name": "GHEE",
+            "children": []
+          },
+          {
+            "id": 788,
+            "name": "CONDENSED MILK",
+            "children": []
+          },
+          {
+            "id": 789,
+            "name": "POWDERED MILK",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 249,
+        "name": "BREADS & BUNS",
+        "children": [
+          {
+            "id": 250,
+            "name": "BUNS, PAVS & PIZZA BASE",
+            "children": []
+          },
+          {
+            "id": 286,
+            "name": "MILK, WHITE & SANDWICH",
+            "children": []
+          },
+          {
+            "id": 363,
+            "name": "CROISSANTS, BAGELS",
+            "children": []
+          },
+          {
+            "id": 365,
+            "name": "GOURMET BREAD",
+            "children": []
+          },
+          {
+            "id": 403,
+            "name": "BROWN, WHEAT & MULTIGRAIN",
+            "children": []
+          },
+          {
+            "id": 573,
+            "name": "PANINI, FOCACCIA & PITA",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 255,
+        "name": "ICE CREAMS & DESSERTS",
+        "children": [
+          {
+            "id": 256,
+            "name": "ICE CREAMS",
+            "children": []
+          },
+          {
+            "id": 530,
+            "name": "GOURMET ICE CREAM",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 359,
+        "name": "BAKERY SNACKS",
+        "children": [
+          {
+            "id": 360,
+            "name": "BREAD STICKS & LAVASH",
+            "children": []
+          },
+          {
+            "id": 364,
+            "name": "CHEESE & GARLIC BREAD",
+            "children": []
+          },
+          {
+            "id": 769,
+            "name": "PUFFS, PATTIES, SANDWICHES",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "name": "MAKEUP",
+    "children": [
+      {
+        "id": 220,
+        "name": "MAKEUP ACCESSORIES",
+        "children": [
+          {
+            "id": 803,
+            "name": "LIP ACCESSORIES",
+            "children": []
+          },
+          {
+            "id": 809,
+            "name": "NAIL ACCESSORIES",
+            "children": []
+          },
+          {
+            "id": 929,
+            "name": "FACE MAKEUP ACCESSORIES",
+            "children": []
+          },
+          {
+            "id": 930,
+            "name": "EYES MAKEUP ACCESSORIES",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 305,
+        "name": "NAILS",
+        "children": [
+          {
+            "id": 806,
+            "name": "NAIL POLISH",
+            "children": []
+          },
+          {
+            "id": 808,
+            "name": "NAIL POLISH REMOVER",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 330,
+        "name": "FACE",
+        "children": [
+          {
+            "id": 811,
+            "name": "FOUNDATION",
+            "children": []
+          },
+          {
+            "id": 813,
+            "name": "OTHER FACE MAKEUP",
+            "children": []
+          },
+          {
+            "id": 919,
+            "name": "PRIMER",
+            "children": []
+          },
+          {
+            "id": 920,
+            "name": "CONCEALER",
+            "children": []
+          },
+          {
+            "id": 921,
+            "name": "BLUSH",
+            "children": []
+          },
+          {
+            "id": 922,
+            "name": "HIGHLIGHTER",
+            "children": []
+          },
+          {
+            "id": 923,
+            "name": "SETTING SPRAY",
+            "children": []
+          },
+          {
+            "id": 924,
+            "name": "CONTOUR",
+            "children": []
+          },
+          {
+            "id": 925,
+            "name": "BRONZER",
+            "children": []
+          },
+          {
+            "id": 926,
+            "name": "CHEEK & LIP TINT",
+            "children": []
+          },
+          {
+            "id": 962,
+            "name": "FACE POWDER - COMPACT",
+            "children": []
+          },
+          {
+            "id": 963,
+            "name": "FACE POWDER - LOOSE",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 356,
+        "name": "EYES",
+        "children": [
+          {
+            "id": 814,
+            "name": "EYE PENCIL",
+            "children": []
+          },
+          {
+            "id": 815,
+            "name": "EYE LINER",
+            "children": []
+          },
+          {
+            "id": 816,
+            "name": "EYE SHADOW",
+            "children": []
+          },
+          {
+            "id": 817,
+            "name": "KAJAL",
+            "children": []
+          },
+          {
+            "id": 818,
+            "name": "MASCARA",
+            "children": []
+          },
+          {
+            "id": 927,
+            "name": "EYEBROW PRODUCT",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 500,
+        "name": "LIPS",
+        "children": [
+          {
+            "id": 801,
+            "name": "LIPSTICK",
+            "children": []
+          },
+          {
+            "id": 802,
+            "name": "LIP LINER",
+            "children": []
+          },
+          {
+            "id": 804,
+            "name": "LIP GLOSS",
+            "children": []
+          },
+          {
+            "id": 928,
+            "name": "LIP TINTS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 598,
+        "name": "MAKEUP KITS & GIFT SETS",
+        "children": [
+          {
+            "id": 823,
+            "name": "MAKEUP GIFT SETS",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "name": "BABY CARE",
+    "children": [
+      {
+        "id": 263,
+        "name": "BABY FOOD & FORMULA",
+        "children": [
+          {
+            "id": 264,
+            "name": "INFANT FORMULA",
+            "children": []
+          },
+          {
+            "id": 265,
+            "name": "BABY FOOD",
+            "children": []
+          },
+          {
+            "id": 547,
+            "name": "ORGANIC BABY FOOD",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 309,
+        "name": "BABY BATH & HYGIENE",
+        "children": [
+          {
+            "id": 310,
+            "name": "BABY CREAMS & LOTIONS",
+            "children": []
+          },
+          {
+            "id": 337,
+            "name": "BABY GIFT SETS",
+            "children": []
+          },
+          {
+            "id": 338,
+            "name": "BABY OIL & SHAMPOO",
+            "children": []
+          },
+          {
+            "id": 339,
+            "name": "BABY BATH",
+            "children": []
+          },
+          {
+            "id": 489,
+            "name": "BABY ORAL CARE",
+            "children": []
+          },
+          {
+            "id": 622,
+            "name": "BABY POWDER",
+            "children": []
+          },
+          {
+            "id": 645,
+            "name": "BABY BUDS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 311,
+        "name": "BABY ACCESSORIES",
+        "children": [
+          {
+            "id": 312,
+            "name": "COMBS, BRUSHES, CLIPPERS",
+            "children": []
+          },
+          {
+            "id": 335,
+            "name": "BABY LAUNDRY",
+            "children": []
+          },
+          {
+            "id": 373,
+            "name": "BABY TOYS",
+            "children": []
+          },
+          {
+            "id": 672,
+            "name": "OTHER BABY ACCESSORIES",
+            "children": []
+          },
+          {
+            "id": 673,
+            "name": "SOOTHERS & TEETHERS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 331,
+        "name": "DIAPERS & WIPES",
+        "children": [
+          {
+            "id": 332,
+            "name": "BABY WIPES",
+            "children": []
+          },
+          {
+            "id": 601,
+            "name": "DIAPERS",
+            "children": []
+          },
+          {
+            "id": 623,
+            "name": "NAPPIES & RASH CREAM",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 483,
+        "name": "FEEDING & NURSING",
+        "children": [
+          {
+            "id": 484,
+            "name": "SIPPERS & BOTTLES",
+            "children": []
+          },
+          {
+            "id": 667,
+            "name": "BABY DISHES & UTENSILS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 620,
+        "name": "MOTHERS & MATERNITY",
+        "children": [
+          {
+            "id": 621,
+            "name": "MATERNITY PERSONAL CARE",
+            "children": []
+          },
+          {
+            "id": 627,
+            "name": "MATERNITY HEALTH SUPPLEMENTS",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 791,
+    "name": "PET FOOD & ACCESSORIES",
+    "children": [
+      {
+        "id": 166,
+        "name": "PET FOOD & ACCESSORIES",
+        "children": [
+          {
+            "id": 167,
+            "name": "PET MEALS & TREATS",
+            "children": []
+          },
+          {
+            "id": 292,
+            "name": "HEALTH SUPPLEMENTS",
+            "children": []
+          },
+          {
+            "id": 350,
+            "name": "Water Treatment",
+            "children": []
+          },
+          {
+            "id": 494,
+            "name": "PET TOYS",
+            "children": []
+          },
+          {
+            "id": 527,
+            "name": "PET CLEANING & GROOMING",
+            "children": []
+          },
+          {
+            "id": 572,
+            "name": "PET COLLARS & LEASHES",
+            "children": []
+          },
+          {
+            "id": 717,
+            "name": "PET FEEDING SUPPORT",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 794,
+    "name": "NON FMCG",
+    "children": [
+      {
+        "id": 65,
+        "name": "Toys & Games",
+        "children": [
+          {
+            "id": 66,
+            "name": "Xbox",
+            "children": [
+              {
+                "id": 67,
+                "name": "Video Game",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 194,
+            "name": "Grown-Up Toys",
+            "children": [
+              {
+                "id": 195,
+                "name": "Temporary Tattoos",
+                "children": []
+              },
+              {
+                "id": 451,
+                "name": "Novelty & Gag Toys",
+                "children": []
+              },
+              {
+                "id": 666,
+                "name": "Magic Kits & Accessories",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 333,
+            "name": "Toy Remote Control & Paly Vehicals",
+            "children": [
+              {
+                "id": 334,
+                "name": "Building Sets",
+                "children": []
+              },
+              {
+                "id": 628,
+                "name": "Vehicals Playsets",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 340,
+            "name": "Action & Toy Figures",
+            "children": [
+              {
+                "id": 341,
+                "name": "Action Figures",
+                "children": []
+              },
+              {
+                "id": 467,
+                "name": "Toy Figures",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 344,
+            "name": "Games",
+            "children": [
+              {
+                "id": 345,
+                "name": "Educational Games/Toys",
+                "children": []
+              },
+              {
+                "id": 536,
+                "name": "Card Games",
+                "children": []
+              },
+              {
+                "id": 585,
+                "name": "Floor Games",
+                "children": []
+              },
+              {
+                "id": 610,
+                "name": "Games Collection",
+                "children": []
+              },
+              {
+                "id": 611,
+                "name": "Board Games",
+                "children": []
+              },
+              {
+                "id": 697,
+                "name": "Trading Card Games",
+                "children": []
+              },
+              {
+                "id": 715,
+                "name": "Travel & Pocket Games",
+                "children": []
+              },
+              {
+                "id": 752,
+                "name": "Musical Toys",
+                "children": []
+              },
+              {
+                "id": 764,
+                "name": "Other Toys/Games",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 353,
+            "name": "Indoor Games, Toys",
+            "children": [
+              {
+                "id": 354,
+                "name": "Kids Play",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 377,
+            "name": "Dolls & Acccessories",
+            "children": [
+              {
+                "id": 378,
+                "name": "Dolls",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 446,
+            "name": "Puzzles",
+            "children": [
+              {
+                "id": 447,
+                "name": "Brain Teasers",
+                "children": []
+              },
+              {
+                "id": 512,
+                "name": "Frame Puzzle",
+                "children": []
+              },
+              {
+                "id": 676,
+                "name": "3-D Games",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 455,
+            "name": "Die Cast & Toys Vehicals",
+            "children": [
+              {
+                "id": 456,
+                "name": "Toy Vehical & Accessories",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 457,
+            "name": "Sports & Outdoor",
+            "children": [
+              {
+                "id": 458,
+                "name": "Target Games & Draft",
+                "children": []
+              },
+              {
+                "id": 609,
+                "name": "Blasters & Foam Play",
+                "children": []
+              },
+              {
+                "id": 632,
+                "name": "Pool and Water Fun",
+                "children": []
+              },
+              {
+                "id": 763,
+                "name": "Toy Sports",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 509,
+            "name": "Party Supplies",
+            "children": [
+              {
+                "id": 510,
+                "name": "Party Favors",
+                "children": []
+              },
+              {
+                "id": 782,
+                "name": "Balloons",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 533,
+            "name": "Dress Up & Pretend Play",
+            "children": [
+              {
+                "id": 591,
+                "name": "Kitchen Toy",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 568,
+            "name": "Learning & Education",
+            "children": [
+              {
+                "id": 569,
+                "name": "Mathematics & Counting",
+                "children": []
+              },
+              {
+                "id": 712,
+                "name": "Reading & Writing",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 570,
+            "name": "Electronic Games",
+            "children": [
+              {
+                "id": 571,
+                "name": "Handheld Games",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 583,
+            "name": "Educational Toys",
+            "children": [
+              {
+                "id": 584,
+                "name": "Funskool Educational Toys",
+                "children": []
+              },
+              {
+                "id": 659,
+                "name": "Blocks & Building Sets",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 589,
+            "name": "Activity, Coloring & Kid's Books",
+            "children": [
+              {
+                "id": 590,
+                "name": "Activity Books",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 599,
+            "name": "Soft Toys",
+            "children": [
+              {
+                "id": 600,
+                "name": "Hamleys Soft Toys",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 607,
+            "name": "Toy Guns & Others",
+            "children": [
+              {
+                "id": 608,
+                "name": "Nerf Toy Guns & Others",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 653,
+            "name": "Building Toys",
+            "children": [
+              {
+                "id": 654,
+                "name": "LEGO Classic Bricks Gears Building Blocks For Kids",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 655,
+            "name": "Model Building Kits",
+            "children": [
+              {
+                "id": 656,
+                "name": "Aircraft",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 657,
+            "name": "Brands",
+            "children": [
+              {
+                "id": 658,
+                "name": "Bestsellers",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 713,
+            "name": "Radio Control & Control Line",
+            "children": [
+              {
+                "id": 714,
+                "name": "Cars & Trucks",
+                "children": []
+              },
+              {
+                "id": 757,
+                "name": "RC Model Vehicles & Kits",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 735,
+            "name": "Girls",
+            "children": [
+              {
+                "id": 736,
+                "name": "Beauty and Personal Care",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 737,
+            "name": "Musical instruments & Toys",
+            "children": [
+              {
+                "id": 738,
+                "name": "Simba musical instruments & toys",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 899,
+            "name": "ACTIVITY,COLORING & KID'S BOOKS",
+            "children": []
+          },
+          {
+            "id": 905,
+            "name": "DOLLS & ACCESSORIES",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "name": "Home & Kitchen",
+        "children": [
+          {
+            "id": 81,
+            "name": "DIY Materials",
+            "children": [
+              {
+                "id": 82,
+                "name": "Adhesives & Glue",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 269,
+            "name": "Electricals",
+            "children": [
+              {
+                "id": 270,
+                "name": "Switches & Dimmers",
+                "children": []
+              },
+              {
+                "id": 282,
+                "name": "Power Tools",
+                "children": []
+              },
+              {
+                "id": 594,
+                "name": "Door Bells",
+                "children": []
+              },
+              {
+                "id": 612,
+                "name": "Fan",
+                "children": []
+              },
+              {
+                "id": 691,
+                "name": "Micro wave Oven",
+                "children": []
+              },
+              {
+                "id": 698,
+                "name": "Water Purifiers & Accessories",
+                "children": []
+              },
+              {
+                "id": 708,
+                "name": "Vacuum, Cleaning & Ironing",
+                "children": []
+              },
+              {
+                "id": 770,
+                "name": "Water heater & Geysers",
+                "children": []
+              },
+              {
+                "id": 772,
+                "name": "Headligh Assemblies & Parts",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 375,
+            "name": "Home Furnishing",
+            "children": [
+              {
+                "id": 376,
+                "name": "Bathroom Linen",
+                "children": [
+                  {
+                    "id": 746,
+                    "name": "Towles",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": 544,
+                "name": "Bedding & Linen",
+                "children": []
+              },
+              {
+                "id": 560,
+                "name": "Kids Bedding",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 404,
+            "name": "Home & Décor",
+            "children": [
+              {
+                "id": 405,
+                "name": "Photo Frames",
+                "children": []
+              },
+              {
+                "id": 625,
+                "name": "Seasonal Lighting",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 424,
+            "name": "Kitchen & Dining",
+            "children": [
+              {
+                "id": 425,
+                "name": "Tableware",
+                "children": []
+              },
+              {
+                "id": 626,
+                "name": "Kitchen & Table Linens",
+                "children": []
+              },
+              {
+                "id": 747,
+                "name": "Specialty Tools & Gadgets",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 473,
+            "name": "Hardware",
+            "children": [
+              {
+                "id": 474,
+                "name": "Lock & Keys",
+                "children": []
+              },
+              {
+                "id": 650,
+                "name": "Magnetic Door Catch",
+                "children": []
+              },
+              {
+                "id": 690,
+                "name": "Magnet",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 479,
+            "name": "Pest Control",
+            "children": [
+              {
+                "id": 480,
+                "name": "Traps",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 538,
+            "name": "Barbique & Outdoor Living",
+            "children": [
+              {
+                "id": 539,
+                "name": "Barbeque Utensils",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 710,
+            "name": "Household Supplies",
+            "children": [
+              {
+                "id": 711,
+                "name": "Furniture & Wood Polishes",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 748,
+            "name": "Furniture",
+            "children": [
+              {
+                "id": 749,
+                "name": "Kid's Furniture",
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": 758,
+            "name": "Power & hand tool",
+            "children": [
+              {
+                "id": 759,
+                "name": "Screwdrivers",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 84,
+        "name": "STORAGE & ACCESSORIES",
+        "children": [
+          {
+            "id": 85,
+            "name": "WALL HOOKS & HANGERS",
+            "children": []
+          },
+          {
+            "id": 119,
+            "name": "WATER & FRIDGE BOTTLES",
+            "children": []
+          },
+          {
+            "id": 440,
+            "name": "CONTAINERS SETS",
+            "children": []
+          },
+          {
+            "id": 441,
+            "name": "LUNCH BOXES",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 130,
+        "name": "Crafting",
+        "children": [
+          {
+            "id": 131,
+            "name": "Craft Supplies",
+            "children": []
+          },
+          {
+            "id": 506,
+            "name": "Ceramics & Pottery",
+            "children": []
+          },
+          {
+            "id": 581,
+            "name": "Knitting & Crochet",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 134,
+        "name": "KITCHEN ACCESSORIES",
+        "children": [
+          {
+            "id": 135,
+            "name": "KNIVES & PEELERS",
+            "children": []
+          },
+          {
+            "id": 273,
+            "name": "LIGHTERS",
+            "children": []
+          },
+          {
+            "id": 274,
+            "name": "CHOPPERS & GRATERS",
+            "children": []
+          },
+          {
+            "id": 278,
+            "name": "KITCHEN TOOLS & OTHER ACCESSORIES",
+            "children": []
+          },
+          {
+            "id": 462,
+            "name": "STRAINER, LADLE, SPATULA",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 138,
+        "name": "Men",
+        "children": [
+          {
+            "id": 139,
+            "name": "Innerwear",
+            "children": []
+          },
+          {
+            "id": 149,
+            "name": "Socks",
+            "children": []
+          },
+          {
+            "id": 463,
+            "name": "Jeans",
+            "children": []
+          },
+          {
+            "id": 541,
+            "name": "Sports Wear",
+            "children": []
+          },
+          {
+            "id": 602,
+            "name": "Shorts",
+            "children": []
+          },
+          {
+            "id": 641,
+            "name": "Trunk",
+            "children": []
+          },
+          {
+            "id": 642,
+            "name": "Vests",
+            "children": []
+          },
+          {
+            "id": 643,
+            "name": "Winterwear",
+            "children": []
+          },
+          {
+            "id": 660,
+            "name": "Trousers",
+            "children": []
+          },
+          {
+            "id": 662,
+            "name": "Footwear",
+            "children": []
+          },
+          {
+            "id": 663,
+            "name": "Formal Shirts",
+            "children": []
+          },
+          {
+            "id": 716,
+            "name": "HankerchiefS",
+            "children": []
+          },
+          {
+            "id": 721,
+            "name": "Belts",
+            "children": []
+          },
+          {
+            "id": 768,
+            "name": "Flip-Flops & Slippers",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 151,
+        "name": "Shoes",
+        "children": [
+          {
+            "id": 152,
+            "name": "Mens Shoe",
+            "children": []
+          },
+          {
+            "id": 434,
+            "name": "Casual Shoes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 179,
+        "name": "Women",
+        "children": [
+          {
+            "id": 180,
+            "name": "Lingarie",
+            "children": []
+          },
+          {
+            "id": 374,
+            "name": "Shirt, Top & Tees",
+            "children": []
+          },
+          {
+            "id": 388,
+            "name": "Western Wear",
+            "children": []
+          },
+          {
+            "id": 520,
+            "name": "Bra",
+            "children": []
+          },
+          {
+            "id": 579,
+            "name": "Breif",
+            "children": []
+          },
+          {
+            "id": 592,
+            "name": "Ethnic Wear",
+            "children": []
+          },
+          {
+            "id": 630,
+            "name": "Fashion Sandals",
+            "children": []
+          },
+          {
+            "id": 637,
+            "name": "Track pant",
+            "children": []
+          },
+          {
+            "id": 638,
+            "name": "Jackets & Sweeter",
+            "children": []
+          },
+          {
+            "id": 639,
+            "name": "Sleep & Swimwear",
+            "children": []
+          },
+          {
+            "id": 640,
+            "name": "Capri",
+            "children": []
+          },
+          {
+            "id": 644,
+            "name": "Bikini",
+            "children": []
+          },
+          {
+            "id": 669,
+            "name": "Scarf",
+            "children": []
+          },
+          {
+            "id": 670,
+            "name": "Kurta",
+            "children": []
+          },
+          {
+            "id": 781,
+            "name": "Leggings",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 217,
+        "name": "Society & Social Sciences",
+        "children": [
+          {
+            "id": 218,
+            "name": "Education",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 239,
+        "name": "APPLIANCES& ELECTRICALS",
+        "children": [
+          {
+            "id": 240,
+            "name": "BATTERY & ELECTRICAL",
+            "children": []
+          },
+          {
+            "id": 277,
+            "name": "GRILLS & TOASTERS",
+            "children": []
+          },
+          {
+            "id": 291,
+            "name": "JUICER, MIXER & GRINDERS",
+            "children": []
+          },
+          {
+            "id": 343,
+            "name": "CFL & LED BULBS",
+            "children": []
+          },
+          {
+            "id": 504,
+            "name": "AIR FRYERS & RICE COOKERS",
+            "children": []
+          },
+          {
+            "id": 505,
+            "name": "INDUCTION COOKTOP",
+            "children": []
+          },
+          {
+            "id": 629,
+            "name": "COFFEE MAKER & KETTLES",
+            "children": []
+          },
+          {
+            "id": 771,
+            "name": "IRONS",
+            "children": []
+          },
+          {
+            "id": 776,
+            "name": "STABLIZIER",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 275,
+        "name": "COOKWARE & NON STICK",
+        "children": [
+          {
+            "id": 276,
+            "name": "TAWA & SAUCE PAN",
+            "children": []
+          },
+          {
+            "id": 392,
+            "name": "COOKWARE SETS",
+            "children": []
+          },
+          {
+            "id": 401,
+            "name": "KADAI & FRY PANS",
+            "children": []
+          },
+          {
+            "id": 613,
+            "name": "PRESSURE COOKERS",
+            "children": []
+          },
+          {
+            "id": 778,
+            "name": "MICROWAVABLE COOKWARE",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 299,
+        "name": "Mobile & Accessories",
+        "children": [
+          {
+            "id": 300,
+            "name": "Data Cable",
+            "children": []
+          },
+          {
+            "id": 302,
+            "name": "Smartphones & Basic Mobiles",
+            "children": []
+          },
+          {
+            "id": 395,
+            "name": "Chargers",
+            "children": []
+          },
+          {
+            "id": 431,
+            "name": "Cables",
+            "children": []
+          },
+          {
+            "id": 482,
+            "name": "USB",
+            "children": []
+          },
+          {
+            "id": 563,
+            "name": "Screen Guards",
+            "children": []
+          },
+          {
+            "id": 597,
+            "name": "Power Bank",
+            "children": []
+          },
+          {
+            "id": 624,
+            "name": "Cases & Covers",
+            "children": []
+          },
+          {
+            "id": 687,
+            "name": "Mounts & Stands",
+            "children": []
+          },
+          {
+            "id": 722,
+            "name": "Basic Mobiles",
+            "children": []
+          },
+          {
+            "id": 723,
+            "name": "Memory Cards",
+            "children": []
+          },
+          {
+            "id": 734,
+            "name": "Mobile",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 313,
+        "name": "CROCKERY & CUTLERY",
+        "children": [
+          {
+            "id": 314,
+            "name": "GLASSWARE",
+            "children": []
+          },
+          {
+            "id": 471,
+            "name": "CUPS, MUGS & TUMBLERS",
+            "children": []
+          },
+          {
+            "id": 490,
+            "name": "CUTLERY, SPOON & FORK",
+            "children": []
+          },
+          {
+            "id": 503,
+            "name": "DINNER SETS",
+            "children": []
+          },
+          {
+            "id": 652,
+            "name": "PLATES & BOWLS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 323,
+        "name": "Outdoor Equipment",
+        "children": [
+          {
+            "id": 324,
+            "name": "Balls, Bats & Rackets",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 393,
+        "name": "Accessories & Peripherals",
+        "children": [
+          {
+            "id": 394,
+            "name": "Audio & Video Accessories",
+            "children": []
+          },
+          {
+            "id": 526,
+            "name": "Laptop Accessories",
+            "children": []
+          },
+          {
+            "id": 617,
+            "name": "Keyboard, Mice & Input Device",
+            "children": []
+          },
+          {
+            "id": 661,
+            "name": "Pc gaming Peripherals",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 409,
+        "name": "Kids",
+        "children": [
+          {
+            "id": 410,
+            "name": "Lehenga",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 422,
+        "name": "GARDENING",
+        "children": [
+          {
+            "id": 423,
+            "name": "GARDENING TOOLS",
+            "children": []
+          },
+          {
+            "id": 555,
+            "name": "SEEDS & SAPLING",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 427,
+        "name": "Sports Gadgets",
+        "children": [
+          {
+            "id": 428,
+            "name": "Activity Trackers",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 465,
+        "name": "Paintwork",
+        "children": [
+          {
+            "id": 466,
+            "name": "Spray cans",
+            "children": []
+          },
+          {
+            "id": 677,
+            "name": "Wax Spray",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 469,
+        "name": "Printers, Inks & Accessories",
+        "children": [
+          {
+            "id": 470,
+            "name": "Inks, Toners & Cartridges",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 475,
+        "name": "Office Electronics",
+        "children": [
+          {
+            "id": 476,
+            "name": "Calculators",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 477,
+        "name": "Oil & Fluids",
+        "children": [
+          {
+            "id": 478,
+            "name": "Oils",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 485,
+        "name": "FLASK & CASSEROLE",
+        "children": [
+          {
+            "id": 486,
+            "name": "VACUUM FLASK",
+            "children": []
+          },
+          {
+            "id": 540,
+            "name": "LUNCH BOXES & BOTTLES",
+            "children": []
+          },
+          {
+            "id": 606,
+            "name": "CASSEROLE",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 514,
+        "name": "Wallets & Pocket Organizers",
+        "children": [
+          {
+            "id": 515,
+            "name": "Pocket Organizer",
+            "children": []
+          },
+          {
+            "id": 616,
+            "name": "Women's Wallets",
+            "children": []
+          },
+          {
+            "id": 725,
+            "name": "Men's Wallets",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 516,
+        "name": "Networking Devices",
+        "children": [
+          {
+            "id": 517,
+            "name": "Data Cards & Dongles",
+            "children": []
+          },
+          {
+            "id": 537,
+            "name": "Routers",
+            "children": []
+          },
+          {
+            "id": 760,
+            "name": "Network Hub",
+            "children": []
+          },
+          {
+            "id": 765,
+            "name": "Wireless USB Adapters",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 524,
+        "name": "Computers & Accessories",
+        "children": [
+          {
+            "id": 525,
+            "name": "Mouse",
+            "children": []
+          },
+          {
+            "id": 684,
+            "name": "Computer Components",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 528,
+        "name": "Literature & Fiction",
+        "children": [
+          {
+            "id": 529,
+            "name": "Classic Fiction",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 543,
+        "name": "Children's & Young Adult",
+        "children": [
+          {
+            "id": 668,
+            "name": "Family,Personal & Social isuue",
+            "children": []
+          },
+          {
+            "id": 702,
+            "name": "Early Learning",
+            "children": []
+          },
+          {
+            "id": 751,
+            "name": "Picture Books & Early Learning",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 561,
+        "name": "Arts & Crafts",
+        "children": [
+          {
+            "id": 562,
+            "name": "Fashion Angels Charm Mash-up Kit",
+            "children": []
+          },
+          {
+            "id": 582,
+            "name": "Clay & Dough",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 565,
+        "name": "Craft Materails",
+        "children": [
+          {
+            "id": 566,
+            "name": "Air & Craft Supplies",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 574,
+        "name": "Health & Personal Care",
+        "children": [
+          {
+            "id": 575,
+            "name": "Eyewear",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 614,
+        "name": "Shoe Care",
+        "children": [
+          {
+            "id": 615,
+            "name": "Shoe Care & Repair",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 618,
+        "name": "External Devices & Data Storage",
+        "children": [
+          {
+            "id": 619,
+            "name": "Pen Drives",
+            "children": []
+          },
+          {
+            "id": 724,
+            "name": "External Hard Disk",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 634,
+        "name": "Sports & Outdoors",
+        "children": [
+          {
+            "id": 635,
+            "name": "Biographies",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 674,
+        "name": "Home Medical Supplies & Equipment",
+        "children": [
+          {
+            "id": 675,
+            "name": "Braces, Splints & Supports",
+            "children": []
+          },
+          {
+            "id": 719,
+            "name": "Weight Machine",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 682,
+        "name": "STEEL UTENSILS",
+        "children": [
+          {
+            "id": 683,
+            "name": "BOWLS & VESSELS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 685,
+        "name": "Luggage & Travel",
+        "children": [
+          {
+            "id": 686,
+            "name": "Keyrings & Keychain",
+            "children": []
+          },
+          {
+            "id": 718,
+            "name": "Travel Accessories",
+            "children": []
+          },
+          {
+            "id": 720,
+            "name": "Suitcase & Trolley Bags",
+            "children": []
+          },
+          {
+            "id": 726,
+            "name": "Bags & Backpacks",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 688,
+        "name": "Home Medical Supplies & Euiqment",
+        "children": [
+          {
+            "id": 689,
+            "name": "Health Monitors",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 692,
+        "name": "BAKEWARE",
+        "children": [
+          {
+            "id": 693,
+            "name": "BAKEWARE MOULDS, CUTTERS",
+            "children": []
+          },
+          {
+            "id": 709,
+            "name": "BAKEWARE ACCESSORIES",
+            "children": []
+          },
+          {
+            "id": 750,
+            "name": "BAKING TOOLS & BRUSHES",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 695,
+        "name": "Antivirus & Security",
+        "children": [
+          {
+            "id": 696,
+            "name": "Security Suites",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 703,
+        "name": "Fashion Jewelry",
+        "children": [
+          {
+            "id": 704,
+            "name": "Collar Tips",
+            "children": []
+          },
+          {
+            "id": 826,
+            "name": "Jewelry",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 705,
+        "name": "Fiction & Non-Fiction Books",
+        "children": [
+          {
+            "id": 706,
+            "name": "Children Books",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 729,
+        "name": "Film Songs",
+        "children": [
+          {
+            "id": 391,
+            "name": "Harmonica",
+            "children": []
+          },
+          {
+            "id": 730,
+            "name": "Lata mangeshkar hits",
+            "children": []
+          },
+          {
+            "id": 741,
+            "name": "Movie DVD",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 732,
+        "name": "Tapes & Adheselves & Sealers",
+        "children": [
+          {
+            "id": 733,
+            "name": "Glue",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 743,
+        "name": "Cameras & Photography",
+        "children": [
+          {
+            "id": 744,
+            "name": "Digital Cameras",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 753,
+        "name": "Bandes dessinées",
+        "children": [
+          {
+            "id": 754,
+            "name": "Comics",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 755,
+        "name": "Professional Medical Supplies",
+        "children": [
+          {
+            "id": 756,
+            "name": "Apparel & Gloves",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 773,
+        "name": "Indoor Sports & Games",
+        "children": [
+          {
+            "id": 774,
+            "name": "Carrom Powder",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 965,
+        "name": "HEALTH & SAFETY PRODUCTS",
+        "children": [
+          {
+            "id": 966,
+            "name": "SURGICAL/CLOTH/N95 MASK",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 795,
+    "name": "TOBACCO",
+    "children": [
+      {
+        "id": 766,
+        "name": "Smoking Products",
+        "children": [
+          {
+            "id": 767,
+            "name": "Cigars",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 865,
+    "name": "WELLNESS",
+    "children": [
+      {
+        "id": 75,
+        "name": "HEALTH ACCESSORIES",
+        "children": [
+          {
+            "id": 76,
+            "name": "COTTON & EAR BUDS",
+            "children": []
+          },
+          {
+            "id": 102,
+            "name": "EVERYDAY MEDICINE",
+            "children": []
+          },
+          {
+            "id": 157,
+            "name": "SUPPLEMENTS & PROTEINS",
+            "children": []
+          },
+          {
+            "id": 158,
+            "name": "ANTISEPTICS & BANDAGES",
+            "children": []
+          },
+          {
+            "id": 546,
+            "name": "SEXUAL WELLNESS",
+            "children": []
+          },
+          {
+            "id": 548,
+            "name": "ADULT DIAPERS",
+            "children": []
+          },
+          {
+            "id": 576,
+            "name": "Spherical Lenses",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 975,
+        "name": "STOMACH CARE",
+        "children": [
+          {
+            "id": 981,
+            "name": "ANTACIDS",
+            "children": []
+          },
+          {
+            "id": 982,
+            "name": "LAXATIVES",
+            "children": []
+          },
+          {
+            "id": 983,
+            "name": "GAS RELIEF",
+            "children": []
+          },
+          {
+            "id": 984,
+            "name": "NATURAL/HERBAL/AYURVEDIC DIGESTIVES",
+            "children": []
+          },
+          {
+            "id": 985,
+            "name": "PREBIOTICS AND PROBIOTICS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 976,
+        "name": "FEVER & PAIN RELIEF",
+        "children": [
+          {
+            "id": 986,
+            "name": "NATURAL/HERBAL/AYURVEDIC PAIN RELIEF",
+            "children": []
+          },
+          {
+            "id": 987,
+            "name": "GENERAL PAIN RELIEF",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 977,
+        "name": "COLD & COUGH",
+        "children": [
+          {
+            "id": 988,
+            "name": "NATURAL/HERBAL/AYURVEDIC COLD & COUGH",
+            "children": []
+          },
+          {
+            "id": 989,
+            "name": "GENERAL COLD & COUGH",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 978,
+        "name": "SPECIALITY SUPPLEMENTS",
+        "children": [
+          {
+            "id": 990,
+            "name": "BONE, JOINT AND MUSCLE SUPPLEMENTS",
+            "children": []
+          },
+          {
+            "id": 991,
+            "name": "HAIR, SKIN AND NAILS SUPPLEMENTS",
+            "children": []
+          },
+          {
+            "id": 992,
+            "name": "IMMUNITY",
+            "children": []
+          },
+          {
+            "id": 993,
+            "name": "OMEGA 3 AND FISH OILS",
+            "children": []
+          },
+          {
+            "id": 994,
+            "name": "OTHER SPECIALITY SUPPLEMENTS",
+            "children": []
+          },
+          {
+            "id": 995,
+            "name": "SLEEP, STRESS AND MENTAL WELLNESS",
+            "children": []
+          },
+          {
+            "id": 996,
+            "name": "WEIGHT MANAGEMENT, METABOLISM, EVERYDAY SUPPLEMENTS",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 979,
+        "name": "VITAMINS & SUPPLEMENTS",
+        "children": [
+          {
+            "id": 997,
+            "name": "CALCIUM",
+            "children": []
+          },
+          {
+            "id": 998,
+            "name": "IRON",
+            "children": []
+          },
+          {
+            "id": 999,
+            "name": "MAGNESIUM",
+            "children": []
+          },
+          {
+            "id": 1000,
+            "name": "MULTIVITAMINS AND MINERALS",
+            "children": []
+          },
+          {
+            "id": 1001,
+            "name": "NATURAL/HERBAL/AYURVEDIC SUPPLEMENTS",
+            "children": []
+          },
+          {
+            "id": 1002,
+            "name": "OTHER SINGLE VITAMINS",
+            "children": []
+          },
+          {
+            "id": 1003,
+            "name": "PROTEIN SUPPLEMENTS",
+            "children": []
+          },
+          {
+            "id": 1004,
+            "name": "VITAMIN B",
+            "children": []
+          },
+          {
+            "id": 1005,
+            "name": "VITAMIN C",
+            "children": []
+          },
+          {
+            "id": 1006,
+            "name": "VITAMIN D",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 980,
+        "name": "WOMEN'S & MEN'S WELLNESS",
+        "children": [
+          {
+            "id": 1007,
+            "name": "MEN’S HEALTH SUPPLEMENTS",
+            "children": []
+          },
+          {
+            "id": 1008,
+            "name": "WOMEN'S HEALTH SUPPLEMENTS",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 874,
+    "name": "EVERYDAY MEDICINE-NEW",
+    "children": [
+      {
+        "id": 875,
+        "name": "Vitamins and Supplements",
+        "children": [
+          {
+            "id": 879,
+            "name": "Single Vitamins",
+            "children": []
+          },
+          {
+            "id": 880,
+            "name": "Multivitamins and Minerals",
+            "children": []
+          },
+          {
+            "id": 881,
+            "name": "Protein Supplements",
+            "children": []
+          },
+          {
+            "id": 882,
+            "name": "Specialty Supplements",
+            "children": []
+          },
+          {
+            "id": 883,
+            "name": "Natural/Herbal/Ayurvedic Supplements",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 876,
+        "name": "Stomach Care",
+        "children": [
+          {
+            "id": 884,
+            "name": "Antacids",
+            "children": []
+          },
+          {
+            "id": 885,
+            "name": "Laxatives",
+            "children": []
+          },
+          {
+            "id": 886,
+            "name": "Gas Relief",
+            "children": []
+          },
+          {
+            "id": 887,
+            "name": "Natural/Herbal/Ayurvedic Digestives",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 877,
+        "name": "Fever & Pain Relief",
+        "children": [
+          {
+            "id": 888,
+            "name": "Natural/Herbal/Ayurvedic Pain Relief",
+            "children": []
+          },
+          {
+            "id": 889,
+            "name": "General Pain Relief",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 878,
+        "name": "Cold & Cough",
+        "children": [
+          {
+            "id": 890,
+            "name": "Natural/Herbal/Ayurvedic Cold & Cough",
+            "children": []
+          },
+          {
+            "id": 891,
+            "name": "General Cold & Cough",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 932,
+    "name": "ALCOHOLIC BEVERAGES",
+    "children": [
+      {
+        "id": 933,
+        "name": "SPIRITS",
+        "children": [
+          {
+            "id": 937,
+            "name": "VODKA",
+            "children": []
+          },
+          {
+            "id": 938,
+            "name": "RUM",
+            "children": []
+          },
+          {
+            "id": 939,
+            "name": "WHISKEY",
+            "children": []
+          },
+          {
+            "id": 940,
+            "name": "TEQUILA",
+            "children": []
+          },
+          {
+            "id": 941,
+            "name": "GIN",
+            "children": []
+          },
+          {
+            "id": 942,
+            "name": "COUNTRY SPIRIT, INDIAN SPIRIT, DESI DAARU, OTHER SPIRITS",
+            "children": []
+          },
+          {
+            "id": 943,
+            "name": "LIQUEURS (FRUIT, HERBAL, COFFEE, BITTER, HONEY, NUT, OTHERS)",
+            "children": []
+          },
+          {
+            "id": 944,
+            "name": "BRANDY & COGNAC",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 934,
+        "name": "BEER",
+        "children": [
+          {
+            "id": 945,
+            "name": "LAGER BEER",
+            "children": []
+          },
+          {
+            "id": 946,
+            "name": "STOUT BEER",
+            "children": []
+          },
+          {
+            "id": 947,
+            "name": "WHEAT BEER",
+            "children": []
+          },
+          {
+            "id": 948,
+            "name": "FLAVORED BEER",
+            "children": []
+          },
+          {
+            "id": 949,
+            "name": "CRAFT BEER AND OTHER BEER",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 935,
+        "name": "WINE",
+        "children": [
+          {
+            "id": 950,
+            "name": "RED WINE",
+            "children": []
+          },
+          {
+            "id": 951,
+            "name": "WHITE WINE",
+            "children": []
+          },
+          {
+            "id": 952,
+            "name": "SPARKLING WINE AND CHAMPAGNE",
+            "children": []
+          },
+          {
+            "id": 953,
+            "name": "OTHERS",
+            "children": []
+          },
+          {
+            "id": 954,
+            "name": "ROSE WINE",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 936,
+        "name": "BREEZER",
+        "children": [
+          {
+            "id": 955,
+            "name": "BREEZER",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]
