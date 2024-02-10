@@ -4,3 +4,7 @@ python-decouple==3.4
 pandas
 azure-ai-formrecognizer
 easyocr
+langchain
+chromadb
+langchain_openai
+unstructured
