@@ -3,7 +3,7 @@
 import whisper
 print(whisper.__file__)
 from openai import OpenAI
-from config import OPENAI_API_KEY
+from module.config import OPENAI_API_KEY
 import os
 
 client = OpenAI()
