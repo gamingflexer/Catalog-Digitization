@@ -160,3 +160,8 @@ cython_debug/
 #.idea/
 src/module/data/*
 data/*
+src/app/api/urls.py
+src/app/api/migrations/__init__.py
+src/app/api/migrations/0001_initial.py
+src/app/api/migrations/0003_record.py
+src/app/api/migrations/0002_database_rename_manufacturer_product_manufactured_by_and_more.py
