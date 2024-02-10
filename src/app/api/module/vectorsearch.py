@@ -5,44 +5,63 @@ from langchain_openai import OpenAIEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 import pandas as pd
-
+import chromadb,uuid
+from chromadb.utils import embedding_functions
 os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
+db_path = os.path.join(file_Directory,"vectorstore")
+client = chromadb.PersistentClient(path=db_path)
+
+def generate_uuid():
+    return str(uuid.uuid4())   
+
+    
+emmbedding_model = "text-embedding-3-large"
+openai_ef = embedding_functions.OpenAIEmbeddingFunction(model_name=emmbedding_model,api_key=OPENAI_API_KEY)
+collection = client.get_or_create_collection(name="products")
 
 
-# df = pd.read_excel(r"/home/vrush/Catalog-Digitization-/src/module/data/Catalog Digitization/ONDC Test Data _ Images/ONDCSampleData.xlsx")
-# df_new = pd.DataFrame(columns=["id", "name"])
-# df_new =  df['name']
-# df_new.to_csv(r"data/data.csv", index=False)
+def add_document_chroma_collection(collection_object, document_list, embedding_list, metadata):   
+    metadata_list = [metadata for i in range(len(document_list))]
+    ids_gen = [generate_uuid() for i in range(len(document_list))]
+    collection_object.add(embeddings = embedding_list,documents = document_list,metadatas = metadata_list , ids = ids_gen)
+    if collection_object:
+        return True
+    
 
 def create_vector():
-    loader = CSVLoader(file_path="data/data.csv")
-    docs = loader.load()
-    text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
-    documents = text_splitter.split_documents(docs)
-    db_path = os.path.join(file_Directory,"vectorstore")
-    embeddings = OpenAIEmbeddings()
-    os.makedirs(db_path, exist_ok=True)      
-    Chroma.from_documents(docs, embeddings, persist_directory= db_path)
-    
+    df = pd.read_csv(r"/home/vrush/Catalog-Digitization-/src/app/api/module/data/data.csv")
+    for i , items in df.iterrows():
+        print(items['name'])
+        metadata = {"empty":""}
+        doc_embed = openai_ef([items['name']])
+        add_document_chroma_collection(collection_object = collection, document_list = [items["name"]], embedding_list = doc_embed ,metadata = metadata)
+
+
+
+
+
+
+
 def search(query):
-    embeddings = OpenAIEmbeddings()
-    db_path = os.path.join(file_Directory,"vectorstore")
-    db = Chroma(persist_directory= db_path, embedding_function= embeddings)
-    embedding_vector = OpenAIEmbeddings().embed_query(query)
-    docs = db.similarity_search_by_vector(embedding_vector)
-    print(docs[0].page_content)
-    return docs[0].page_content
+    embbed_text_search = openai_ef(query)
+    data = collection.query(query_embeddings = embbed_text_search, n_results=10) 
+    return data
+ 
+
 
 
 def get_detail_df(name):
-    df = pd.read_excel(r"/home/vrush/Catalog-Digitization-/src/module/data/Catalog Digitization/ONDC Test Data _ Images/ONDCSampleData.xlsx")
-    for item in df.iterrows():
-        if item['name'] == name:
+    print(name)
+    df = pd.read_excel(r"/home/vrush/Catalog-Digitization-/src/app/api/module/data/Catalog/Data_Images/ONDCSampleData.xlsx")
+    for i,item in df.iterrows():
+        if str(item['name']) == str(name).split(":")[1].strip():
             return item
         else:
-            return None
+            continue
+          
 
 if __name__ == "__main__":
-    create_vector()
-    name = search("Choco Creme Wafers")
-    print(get_detail_df(name))
+    # create_vector()
+    name = search("Atta")
+    print(name)
+    # # # print(get_detail_df(name))

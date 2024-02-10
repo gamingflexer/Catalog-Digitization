@@ -33,3 +33,12 @@ base_prompt = dedent("""
         Analyse data from the above product description to give me the following details in JSON format:
         Only return the output in the required json format.
         """)
+
+
+gpt3 = dedent(""" I am providing you with a OCR text about a product.
+
+              OCR TEXT : {text}
+              I want you to provide me with the name of prodcut in following JSON format:
+               "product_name" : "BRU instant coffee".
+              
+              """)

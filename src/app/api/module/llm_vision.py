@@ -1,6 +1,7 @@
 import base64
 import requests
 from config import OPENAI_API_KEY
+from openai import OpenAI
 import os
 
 
@@ -56,3 +57,20 @@ class OpenAIVision:
 
         response = requests.post(self.base_url, headers=headers, json=payload)
         return response.json()
+
+
+    def getname(self , prompt):
+        client = OpenAI()
+        completion = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {"role": "user", "content": prompt}
+        ]
+        )
+
+        return completion.choices[0].message
+
+
+
+
+
