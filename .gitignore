@@ -160,4 +160,3 @@ cython_debug/
 #.idea/
 src/module/data/*
 data/*
-app
