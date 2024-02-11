@@ -6,12 +6,12 @@ from django.shortcuts import render, get_object_or_404
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from .models import Product,Record
-from django.contrib import messages
+from .models import Product
 from .serializers import ProductSerializer
 from django.http import JsonResponse
 import os
 from config import BASE_PATH
+from api.module.product_description import get_details
 
 def catalouge_page(request):
     # Fetch all products from the database
@@ -84,19 +84,27 @@ def upload_image_and_audio(request):
         for image in images:
             # Save the image locally in the static directory
             image_name = image.name
-            image_path = os.path.join(BASE_PATH,'app','main',settings.STATIC_ROOT, 'images', image_name)
+            image_path = os.path.join(BASE_PATH,'app','main',settings.MEDIA_ROOT, 'images', image_name)
             with open(image_path, 'wb') as f:
                 for chunk in image.chunks():
                     f.write(chunk)
+        print('Image saved at:', image_path)
+        input_data = get_details(image_path)
+        static_img_path = "http://34.122.223.224:9002/media/images/" + image_name
+        product_data = {
+            'brand': input_data.get('brand',None),
+            'mrp': input_data.get('mrp',None),
+            'quantity': input_data.get('quantity',None),
+            'parent_category': input_data.get('parent_category',None),
+            'manufactured_by': input_data.get('manufactured_by', ''),
+            'product_name': input_data.get('type_of_product',None),
+            'images_paths': static_img_path,  # Static path after saving image
+            'description': input_data.get('description',None)  
+        }
         
-        product_details  = []
-        dummy_data = [
-            {'barcode': '123456', 'brand': 'Brand A', 'manufactured_by': 'Manufacturer A', 'product_name': 'Product A', 'weight': 1.5, 'variant': 'Variant A', 'net_content': '100ml', 'price': 10.0, 'parent_category': 'Category A', 'child_category': 'Subcategory A', 'description': 'Description for Product A', 'quantity': 100, 'mrp': '20.0'},
-            {'barcode': '654321', 'brand': 'Brand B', 'manufactured_by': 'Manufacturer B', 'product_name': 'Product B', 'weight': 2.0, 'variant': 'Variant B', 'net_content': '200ml', 'price': 15.0, 'parent_category': 'Category B', 'child_category': 'Subcategory B', 'description': 'Description for Product B', 'quantity': 200, 'mrp': '25.0'}
-        ]
-        # product = Product.objects.create(data)
-        product_details.extend(dummy_data)
-        return JsonResponse(dummy_data[0], safe=False)  # Return product details as JSON response
+        # Create a new Product instance and save to database
+        product = Product.objects.create(**product_data)
+        return JsonResponse(product_data, safe=False)  # Return product details as JSON response
     return render(request, 'upload_image.html')
   
 class ProductAPIView(APIView):

@@ -34,10 +34,6 @@ def whisper_pipeline(audio_path):
     print(result.text)
     return result.text
 
-
-
-
-
 def whisper_openai(audio_path):
    audio_file= open(audio_path, "rb")
    transcript = client.audio.transcriptions.create(
@@ -45,5 +41,3 @@ def whisper_openai(audio_path):
     file=audio_file
    )
    return transcript
-
-whisper_pipeline()
