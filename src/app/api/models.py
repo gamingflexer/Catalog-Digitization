@@ -4,17 +4,17 @@ from django.urls.base import reverse
 
 
 class Product(models.Model):
-    barcode = models.CharField(max_length=20)
-    brand = models.CharField(max_length=100)
+    barcode = models.CharField(max_length=20, null=True)
+    brand = models.CharField(max_length=100, null=True)
     sub_brand = models.CharField(max_length=100, blank=True, null=True)
-    manufactured_by = models.CharField(max_length=200)
-    product_name = models.CharField(max_length=200)
-    weight = models.FloatField()
+    manufactured_by = models.CharField(max_length=200, null=True)
+    product_name = models.CharField(max_length=200, null=True)
+    weight = models.FloatField(null=True)
     variant = models.CharField(max_length=100, blank=True, null=True)
     net_content = models.CharField(max_length=100, blank=True, null=True)
-    price = models.DecimalField(max_digits=10, decimal_places=2)
-    parent_category = models.CharField(max_length=100)
-    child_category = models.CharField(max_length=100)
+    price = models.DecimalField(max_digits=10, decimal_places=2, null=True)
+    parent_category = models.CharField(max_length=100, null=True)
+    child_category = models.CharField(max_length=100, null=True)
     sub_child_category = models.CharField(max_length=100, blank=True, null=True)
     images_paths = models.CharField(max_length=3000, blank=True, null=True) # Comma separated paths
     description = models.TextField(max_length=3000, blank=True, null=True)
@@ -26,17 +26,17 @@ class Product(models.Model):
 
 
 class Database(models.Model):
-    barcode = models.CharField(max_length=20)
-    brand = models.CharField(max_length=100)
+    barcode = models.CharField(max_length=20, null=True)
+    brand = models.CharField(max_length=100, null=True)
     sub_brand = models.CharField(max_length=100, blank=True, null=True)
-    manufactured_by = models.CharField(max_length=200)
-    product_name = models.CharField(max_length=200)
-    weight = models.FloatField()
+    manufactured_by = models.CharField(max_length=200, null=True)
+    product_name = models.CharField(max_length=200, null=True)
+    weight = models.FloatField(null=True)
     variant = models.CharField(max_length=100, blank=True, null=True)
     net_content = models.CharField(max_length=100, blank=True, null=True)
-    price = models.DecimalField(max_digits=10, decimal_places=2)
-    parent_category = models.CharField(max_length=100)
-    child_category = models.CharField(max_length=100)
+    price = models.DecimalField(max_digits=10, decimal_places=2,null=True)
+    parent_category = models.CharField(max_length=100,null=True)
+    child_category = models.CharField(max_length=100,null=True)
     sub_child_category = models.CharField(max_length=100, blank=True, null=True)
     images_paths = models.CharField(max_length=3000, blank=True, null=True) # Comma separated paths
     description = models.TextField(max_length=3000, blank=True, null=True)
