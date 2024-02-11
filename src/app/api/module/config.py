@@ -6,5 +6,3 @@ key = config("AZURE")
 emmbedding_model = "text-embedding-3-large"
 
 file_Directory= os.path.join(os.getcwd(), "data")
-
-endpoint = "https://bintix-ocr.cognitiveservices.azure.com/"
