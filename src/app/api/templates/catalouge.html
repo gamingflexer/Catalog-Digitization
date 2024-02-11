@@ -30,7 +30,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="{% url 'index' %}" style="font-weight: bold;">HomePage</a>
-            <a class="navbar-brand" href="{% url 'index' %}" style="font-weight: bold;">Database</a>
+            <a class="navbar-brand" href="http://34.122.223.224:9003/" style="font-weight: bold;">Database</a>
             <a href="{% url 'add_product_by_image' %}" class="btn btn-primary ml-1" style="padding: 0.5rem 1rem; font-size: 1rem;">Add a Product by Image</a>
         </div>
     </nav>
@@ -55,7 +55,7 @@
             {% endif %}
             <div class="card-body">
                 <h5 class="card-title">{{ product.product_name }}</h5>
-                <p class="card-text">Description: {{ product.description }}</p>
+                <p class="card-text">Description: {{ product.parent_category }}</p>
                 <p class="card-text">Brand: {{ product.brand }}</p>
                 <div class="d-flex justify-content-between align-items-center">
                     <a href="{% url 'product_detail' product.id %}" class="btn btn-primary btn-sm mb-2">View Details</a>
