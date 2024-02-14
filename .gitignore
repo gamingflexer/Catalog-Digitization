@@ -173,3 +173,4 @@ src/app/api/migrations/0005_alter_database_barcode_alter_database_brand_and_more
 src/app/api/migrations/0006_alter_product_barcode_alter_product_brand_and_more.py
 src/app/api/migrations/0007_alter_product_price.py
 src/app/media/images/*
+src/app/api/module/image.ipynb
