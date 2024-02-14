@@ -1,11 +1,12 @@
 # from whisper_jax import FlaxWhisperPipline
 # import jax.numpy as jnp
-import whisper
-print(whisper.__file__)
+# import whisper
+# print(whisper.__file__)
 from openai import OpenAI
-from module.config import OPENAI_API_KEY
+from decouple import config
 import os
 
+OPENAI_API_KEY = config('OPENAI_API_KEY', default="")
 client = OpenAI()
 os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
 

@@ -42,3 +42,31 @@ gpt3 = dedent(""" I am providing you with a OCR text about a product.
                "product_name" : "BRU instant coffee".
               
               """)
+
+
+voice_edit = dedent("""
+        ### Instruction: 
+        audio transcription starts here
+        {text}
+        audio transcription ends here
+        
+        I want you to provide the json format with all the details filled as mentioned below by getting information from the audio transcription.
+        ( return "null" where you don't have a answer)
+        
+        "brand": "sample_brand",
+        "mrp": "12", ##price of product
+        "unit": "per pack",
+        "Quantity": 1,  ##num of products visible
+        "parent_category": "from the above given list",
+        "ingredients": ["ingredient1", "ingredient2", "ingredient3"],
+        "calorie_count": "Would be in numbers",
+        "marketed_by": "sample_marketer",
+        "manufactured_by": "sample_manufacturer",
+        "manufactured_in_country": "Country XYZ",
+        "type_of_packaging": "Box",
+        "promotion_on_the_pack": "if any",
+        "type_of_product": "give this your understanding",
+        "pack_of_or_no_of_units": "No. of Units"
+     
+        Only return the output in the required json format with string in enclosed in double quotes.
+        """)

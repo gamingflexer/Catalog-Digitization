@@ -6,3 +6,6 @@ easyocr
 chromadb
 langchain_openai
 unstructured
+gradio
+pymysql
+whisper==1.1.10

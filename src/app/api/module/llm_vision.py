@@ -70,7 +70,7 @@ class OpenAIVision:
 
         return completion.choices[0].message
 
-
+   
 
 
 
