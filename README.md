@@ -1,3 +1,12 @@
+---
+title: Catalog Digitization
+emoji: 🚀
+colorFrom: pink
+colorTo: pink
+sdk: docker
+app_port: 7860
+pinned: true
+---
 # Catalog Digitization - BUILD FOR BHARAT Hackathon 2024
 
 ## Introduction
