@@ -20,4 +20,4 @@ with gr.Blocks(theme=gr.themes.Default(primary_hue=gr.themes.colors.red, seconda
 
     submit_button_tab_1.click(fn=sample_fun,inputs=[voice_input,prodcut_id])
 
-demo.launch(server_name="0.0.0.0",server_port=9003)
+demo.launch()
