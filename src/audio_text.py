@@ -6,7 +6,7 @@ from openai import OpenAI
 from decouple import config
 import os
 
-OPENAI_API_KEY = config('OPENAI_API_KEY', default="")
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 client = OpenAI()
 os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
 
@@ -18,22 +18,22 @@ os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
 
 
      
-def whisper_pipeline(audio_path):
-    model = whisper.load_model("medium")
-    # load audio and pad/trim it to fit 30 seconds
-    audio = whisper.load_audio(audio_path)
-    audio = whisper.pad_or_trim(audio)
-    # make log-Mel spectrogram and move to the same device as the model
-    mel = whisper.log_mel_spectrogram(audio).to(model.device)
-    # detect the spoken language
-    _, probs = model.detect_language(mel)
-    print(f"Detected language: {max(probs, key=probs.get)}")
-    # decode the audio
-    options = whisper.DecodingOptions()
-    result = whisper.decode(model, mel, options)
-    # print the recognized text
-    print(result.text)
-    return result.text
+# def whisper_pipeline(audio_path):
+#     model = whisper.load_model("medium")
+#     # load audio and pad/trim it to fit 30 seconds
+#     audio = whisper.load_audio(audio_path)
+#     audio = whisper.pad_or_trim(audio)
+#     # make log-Mel spectrogram and move to the same device as the model
+#     mel = whisper.log_mel_spectrogram(audio).to(model.device)
+#     # detect the spoken language
+#     _, probs = model.detect_language(mel)
+#     print(f"Detected language: {max(probs, key=probs.get)}")
+#     # decode the audio
+#     options = whisper.DecodingOptions()
+#     result = whisper.decode(model, mel, options)
+#     # print the recognized text
+#     print(result.text)
+#     return result.text
 
 def whisper_openai(audio_path):
    audio_file= open(audio_path, "rb")

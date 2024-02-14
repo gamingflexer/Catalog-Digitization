@@ -1,13 +1,9 @@
 from textwrap import dedent
-import base64
-import requests
 from openai import OpenAI
-import os
 from decouple import config
-import json
+import json,os
 
-OPENAI_API_KEY = config('OPENAI_API_KEY', default="")
-
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
 voice_edit = dedent("""
         ### Instruction: 
