@@ -41,6 +41,7 @@ def sample_fun(voice_input, product_id, progress=gr.Progress()):
     sample_rate,audio_data = voice_input
     progress(0.1, desc="Collecting audio data")
     # audio_data = audio_data.reshape(-1, 1) 
+    os.makedirs(os.path.join(BASE_PATH,"audio"),exist_ok=True)
     audio_save_path = os.path.join(BASE_PATH,"audio",audio_path)
     sf.write(audio_save_path, audio_data, sample_rate)
     # print("Product ID:", product_id)
