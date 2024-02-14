@@ -81,6 +81,8 @@ def catalouge_page(request):
 def upload_image_and_audio(request):
     if request.method == 'POST' and request.FILES.getlist('images'):
         images = request.FILES.getlist('images')
+        image_path_list = []
+        static_img_path_list = []
         for image in images:
             # Save the image locally in the static directory
             image_name = image.name
@@ -88,18 +90,22 @@ def upload_image_and_audio(request):
             with open(image_path, 'wb') as f:
                 for chunk in image.chunks():
                     f.write(chunk)
-        print('Image saved at:', image_path)
-        input_data = get_details(image_path)
+            image_path_list.append(image_path)
+            static_img_path_list.append(("http://34.122.223.224:9002/media/images/" + image_name))
+        print('Image saved at:', image_path_list)
+        input_data = get_details(image_path_list)
         static_img_path = "http://34.122.223.224:9002/media/images/" + image_name
         product_data = {
             'brand': input_data.get('brand',None),
             'mrp': input_data.get('mrp',None),
-            'quantity': input_data.get('quantity',None),
+            'quantity': 1,
             'parent_category': input_data.get('parent_category',None),
             'manufactured_by': input_data.get('manufactured_by', ''),
             'product_name': input_data.get('type_of_product',None),
-            'images_paths': static_img_path,  # Static path after saving image
-            'description': input_data.get('description',None)  
+            'images_paths': ",".join(static_img_path_list),  # Save the image paths as a comma-separated string
+            'description': input_data.get('description',None) ,
+            'price' : input_data.get('price',None),
+            'weight': input_data.get('weight',None),
         }
         
         # Create a new Product instance and save to database
