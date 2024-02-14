@@ -23,7 +23,7 @@ voice_edit = dedent("""
         "unit": per pack
         "Quantity": 1,  ##num of products visible
         "parent_category": from the above given list"
-        "ingredients": ["ingredient1", "ingredient2", "ingredient3"] ##list of ingredients
+        "ingredients": "ingredient1", "ingredient2", "ingredient3" ##list of ingredients comma separated
         "calorie_count": 12 ##calorie count
         "marketed_by":  ##sample_marketer
         "manufactured_by": ##manufacturer
@@ -54,7 +54,7 @@ def getname(prompt):
 
 
 def extract_json_from_text(text):
-    text = str(text)
+    text = str(text).lower()
     print(f"Extracting JSON from text: {text}")
     try:
         # Find the JSON part within the text
