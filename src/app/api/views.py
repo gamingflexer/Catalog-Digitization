@@ -43,13 +43,11 @@ def edit_product(request, product_id):
     
     if request.method == 'POST':
         # Update the product fields with the submitted data
+        product = Product.objects.get(pk=product_id)
         product.barcode = request.POST.get('barcode')
         product.brand = request.POST.get('brand')
         product.sub_brand = request.POST.get('sub_brand')
         product.manufacturer = request.POST.get('manufacturer')
-        # Update other fields similarly
-        
-        # Save the updated product
         product.save()
         
         # Redirect to the product page after saving
@@ -160,5 +158,18 @@ class ProductDetailsById(APIView):
             product = Product.objects.get(pk=pk)
             product_serializer = ProductSerializer(product)
             return Response(product_serializer.data)
+        except Product.DoesNotExist:
+            return Response({"error": "Product not found"}, status=404)
+        
+class UpdateProduct(APIView):
+    def put(self, request, pk):
+        try:
+            product = Product.objects.get(pk=pk)
+            serializer = ProductSerializer(product, data=request.data)
+            print(serializer.is_valid(), serializer.errors)
+            if serializer.is_valid():
+                serializer.save()
+                return Response(serializer.data)
+            return Response(serializer.errors, status=400)
         except Product.DoesNotExist:
             return Response({"error": "Product not found"}, status=404)
