@@ -69,7 +69,7 @@ def sample_fun(voice_input, product_id, progress=gr.Progress()):
     return json_data
 
 
-with gr.Blocks(theme=gr.themes.Default(primary_hue=gr.themes.colors.red, secondary_hue=gr.themes.colors.pink)) as demo:
+with gr.Blocks(theme=gr.themes.Default(primary_hue=gr.themes.colors.red, secondary_hue=gr.themes.colors.pink),title = "Edit Product by Voice") as demo:
     
     with gr.Tab("Add Your Image"):
         voice_input = gr.Audio(sources=["microphone"])
