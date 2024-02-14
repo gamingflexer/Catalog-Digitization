@@ -6,14 +6,14 @@ from django.shortcuts import render, get_object_or_404
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from .models import Product
-from .serializers import ProductSerializer
+from .models import Product,Database
+from .serializers import ProductSerializer,DatabaseSerializer
 from django.http import JsonResponse
 import os
 from config import BASE_PATH
 from api.module.product_description import get_details
 from django.views.decorators.http import require_http_methods
-
+from django.db.models import Q
 
 def catalouge_page(request):
     # Fetch all products from the database
@@ -141,3 +141,24 @@ def delete_product_api(request, product_id):
         return HttpResponseRedirect(reverse('index'))
     except Product.DoesNotExist:
         return JsonResponse({'error': 'Product not found.'}, status=404)
+    
+class SearchProducts(APIView):
+    def get(self, request):
+        name = request.query_params.get('name', '')
+        products = Database.objects.filter(Q(product_name__icontains=name) & Q(description__icontains=name))
+        db_serializer = DatabaseSerializer(products, many=True)
+        return Response(db_serializer.data)
+
+class TotalNumberOfProducts(APIView):
+    def get(self, request):
+        count = Database.objects.count()
+        return Response({"total_number_of_products": count})
+
+class ProductDetailsById(APIView):
+    def get(self, request, pk):
+        try:
+            product = Product.objects.get(pk=pk)
+            product_serializer = ProductSerializer(product)
+            return Response(product_serializer.data)
+        except Product.DoesNotExist:
+            return Response({"error": "Product not found"}, status=404)
