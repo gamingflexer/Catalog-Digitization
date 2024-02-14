@@ -16,11 +16,10 @@ base_prompt = dedent("""
         
         "brand": "sample_brand",
         "mrp": "The price might start with MRP or Rs.",
+        "price": "The price might start with MRP or Rs.",
         "unit": "per pack",
-        "Quantity": 1,  ##num of products visible
+        "Quantity": 1,  ## num of products visible in the image
         "parent_category": "from the above given list",
-        "ingredients": ["ingredient1", "ingredient2", "ingredient3"],
-        "calorie_count": "Would be in numbers",
         "marketed_by": "sample_marketer",
         "manufactured_by": "sample_manufacturer",
         "manufactured_in_country": "Country XYZ",
@@ -28,8 +27,9 @@ base_prompt = dedent("""
         "promotion_on_the_pack": "if any",
         "type_of_product": "give this your understanding",
         "pack_of_or_no_of_units": "No. of Units"
-     
-
+        "description" : "Generate a description of the product"
+        "weight" : "If the weight is mentioned in the Image or OCR Text"
+        
         Analyse data from the above product description to give me the following details in JSON format:
         Only return the output in the required json format.
         """)
