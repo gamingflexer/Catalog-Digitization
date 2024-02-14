@@ -3,3 +3,4 @@ pandas
 soundfile
 langchain==0.1.6
 openai
+python-decouple
