@@ -12,6 +12,8 @@ from django.http import JsonResponse
 import os
 from config import BASE_PATH
 from api.module.product_description import get_details
+from django.views.decorators.http import require_http_methods
+
 
 def catalouge_page(request):
     # Fetch all products from the database
@@ -131,3 +133,11 @@ def edit_voice_product(request,product_id):
             return JsonResponse({'error': 'No voice file submitted.'}, status=400)
     else:
         return render(request, 'edit_voice_product.html')
+    
+def delete_product_api(request, product_id):
+    try:
+        product = Product.objects.get(pk=product_id)
+        product.delete()
+        return HttpResponseRedirect(reverse('index'))
+    except Product.DoesNotExist:
+        return JsonResponse({'error': 'Product not found.'}, status=404)

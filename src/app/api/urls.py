@@ -9,4 +9,5 @@ urlpatterns = [
     path('product/<int:product_id>/edit/', views.edit_product, name='edit_product'),
     path('upload/', views.upload_image_and_audio, name='add_product_by_image'),
     path('api/products/', ProductAPIView.as_view(), name='product_api'),
+    path('api/delete_product/<int:product_id>/', views.delete_product_api, name='delete_product_api'),
 ]
