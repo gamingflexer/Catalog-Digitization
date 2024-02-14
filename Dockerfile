@@ -7,6 +7,9 @@ WORKDIR /code
 
 COPY ./requirements.txt /code/requirements.txt
 
+RUN apt update && apt install -y libsndfile1
+RUN apt-get update && apt-get upgrade -y
+
 RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
 # Set up a new user named "user" with user ID 1000
@@ -27,6 +30,8 @@ WORKDIR $HOME/app
 
 # Copy the current directory contents into the container at $HOME/app setting the owner to the user
 COPY --chown=user . $HOME/app
+
+RUN pip install --force-reinstall soundfile
 
 ENV GRADIO_SERVER_NAME=0.0.0.0
 
