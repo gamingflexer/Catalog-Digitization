@@ -11,7 +11,7 @@ import time
 BASE_PATH = os.path.dirname(os.path.abspath(__file__))
 
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
-SEVER_IP = os.environ.get("SEVER_IP","http://34.122.223.224:9002/")
+SEVER_IP = os.environ.get("SEVER_IP","http://34.122.223.224:9002")
 
 def get_total_number_of_products():
     response = requests.get(f'{SEVER_IP}/api/total_number_of_products/')
